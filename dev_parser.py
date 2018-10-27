@@ -3,20 +3,18 @@ import csv
 
 class Developer:
    devCount = 0
-   devList = []
+   developerList = []
    def __init__(self, name):
         self.name = name
         Developer.devCount += 1
-        Developer.devList.append(self)
+        Developer.developerList.append(name)
 
 
 class Bug:
     fixedBugIds = []
-    def __init__(self, bugId, status):
+    def __init__(self, bugId):
         self.bugId = bugId
-        self.status = status
-        if status == "FIXED":
-            Bug.fixedBugIds.append(self)
+        Bug.fixedBugIds.append(bugId)
 ##
 #assign to xmls
 ##
@@ -47,106 +45,81 @@ resolution_firefox_root = resolution_firefox.getroot()
 resolution_thunder = ET.parse('resolution/resolution_thunder.xml')
 resolution_thunder_root = resolution_thunder.getroot()
 
+developerFreqList = []
 
 for child in resolution_bugzilla_root:
     if child[len(child.getchildren()) - 1][1].text == "FIXED":
-        bug = Bug(child.get('id'), 'FIXED')
-
-for child in resolution_core_root:
-    if child[len(child.getchildren()) - 1][1].text == "FIXED":
-        bug = Bug(child.get('id'), 'FIXED')
-
-for child in resolution_firefox_root:
-    if child[len(child.getchildren()) - 1][1].text == "FIXED":
-        bug = Bug(child.get('id'), 'FIXED')
-
-for child in resolution_thunder_root:
-    if child[len(child.getchildren()) - 1][1].text == "FIXED":
-        bug = Bug(child.get('id'), 'FIXED')
-
-
-Bug_data = open('BugIds.csv', 'w')
-
-csvwriter = csv.writer(Bug_data)
-Bug_head = []
-
-Bug_head.append('Id')
-Bug_head.append('Status')
-csvwriter.writerow(Bug_head)
-
-
-Developer_data = open('Developers.csv', 'w')
-csvwriter = csv.writer(Developer_data)
-Dev_head = []
-
-Dev_head.append('developer')
-csvwriter.writerow(Dev_head)
-
+        bug = Bug(child.get('id'))
 
 for child in assigned_to_bugzilla_root:
     if child[len(child.getchildren()) - 1][1].text:
-        dev_row = []
-        dev_row.append(child[len(child.getchildren()) - 1][1].text)
-        csvwriter.writerow(dev_row)
+        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
+            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
+        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+
+
+
+for child in resolution_core_root:
+    if child[len(child.getchildren()) - 1][1].text == "FIXED":
+        bug = Bug(child.get('id'))
 
 for child in assigned_to_core_root:
     if child[len(child.getchildren()) - 1][1].text:
-        dev_row = []
-        dev_row.append(child[len(child.getchildren()) - 1][1].text)
-        csvwriter.writerow(dev_row)
+        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
+            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
+        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+
+
+
+for child in resolution_firefox_root:
+    if child[len(child.getchildren()) - 1][1].text == "FIXED":
+        bug = Bug(child.get('id'))
 
 for child in assigned_to_firefox_root:
     if child[len(child.getchildren()) - 1][1].text:
-        dev_row = []
-        dev_row.append(child[len(child.getchildren()) - 1][1].text)
-        csvwriter.writerow(dev_row)
+        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
+            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
+        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+
+
+
+
+for child in resolution_thunder_root:
+    if child[len(child.getchildren()) - 1][1].text == "FIXED":
+        bug = Bug(child.get('id'))
 
 for child in assigned_to_thunder_root:
     if child[len(child.getchildren()) - 1][1].text:
-        if child.get('id') in Bug.fixedBugIds
-            dev_row = []
-            dev_row.append(child[len(child.getchildren()) - 1][1].text)
-            csvwriter.writerow(dev_row)
+        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
+            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
+        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+
+BugId_data = open('BugId.csv', 'w')
+
+csvwriter = csv.writer(BugId_data)
+BugId_head = []
+BugId_head.append('id')
+csvwriter.writerow(BugId_head)
+
+for bug in Bug.fixedBugIds:
+    BugId_row = []
+    BugId_row.append(bug)
+    csvwriter.writerow(BugId_row)
+
+BugId_data.close()
+
+Developer_data = open('Developers.csv', 'w')
+
+csvwriter = csv.writer(Developer_data)
+Developer_head = []
+Developer_head.append('developer')
+Developer_head.append('Num of Bugs')
+csvwriter.writerow(Developer_head)
+
+for i in range(len(developerFreqList)):
+    Developer_row = []
+    Developer_row.append(developerFreqList[i])
+    Developer_row.append(Developer.developerList.count(developerFreqList[i]))
+    csvwriter.writerow(Developer_row)
 
 Developer_data.close()
-
-import pandas as pd
-
-
-developerList = []
-with open('Developers.csv') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-        if row not in developerList:
-            developerList.append(row['developer'])
-
-
-for member in Bug.fixedBugIds:
-    Bug_row = []
-    bug_id = member.bugId
-    Bug_row.append(bug_id)
-    bug_status = member.status
-    Bug_row.append(bug_status)
-    csvwriter.writerow(Bug_row)
-
-Bug_data.close()
-
-
-
-
-
-
-
-for member in Bug.fixedBugIds:
-    ass_child = assigned_to_bugzilla_root.find(".//*[@id='%s']" %member.bugId)
-    if ass_child[len(ass_child.getchildren()) - 1][1].text:
-        if ass_child[len(ass_child.getchildren()) - 1][1].text not in developerList:
-            developerList.append(ass_child[len(ass_child.getchildren()) - 1][1].text)
-
-developerList.clear()
-
-for member in Bug.fixedBugIds:
-    ass_child = assigned_to_bugzilla_root.find(".//*[@id='%s']" %member.bugId)
-    if ass_child != '' and ass_child not in developerList:
-        developerList.append(ass_child)
-
