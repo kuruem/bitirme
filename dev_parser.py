@@ -15,6 +15,18 @@ class Bug:
     def __init__(self, bugId):
         self.bugId = bugId
         Bug.fixedBugIds.append(bugId)
+
+
+
+class Report:
+    reports = []
+    def __init__(self, bugId, shortDesc, developer):
+        self.bugId = bugId
+        self.shortDesc = shortDesc
+        self.developer = developer
+        Report.reports.append(self)
+
+
 ##
 #assign to xmls
 ##
@@ -44,6 +56,28 @@ resolution_firefox_root = resolution_firefox.getroot()
 
 resolution_thunder = ET.parse('resolution/resolution_thunder.xml')
 resolution_thunder_root = resolution_thunder.getroot()
+
+
+
+##
+#short_desc xmls
+##
+short_desc_bugzilla = ET.parse('short_desc/short_desc_bugzilla.xml')
+short_desc_bugzilla_root = short_desc_bugzilla.getroot()
+
+short_desc_core = ET.parse('short_desc/short_desc_core.xml')
+short_desc_core_root = short_desc_core.getroot()
+
+short_desc_firefox = ET.parse('short_desc/short_desc_firefox.xml')
+short_desc_firefox_root = short_desc_firefox.getroot()
+
+short_desc_thunder = ET.parse('short_desc/short_desc_thunder.xml')
+short_desc_thunder_root = short_desc_thunder.getroot()
+
+
+
+
+
 
 developerFreqList = []
 
