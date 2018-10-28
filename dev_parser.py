@@ -4,10 +4,11 @@ import csv
 class Developer:
    devCount = 0
    developerList = []
-   def __init__(self, name):
+   def __init__(self, name, id):
         self.name = name
+        self.id = id
         Developer.devCount += 1
-        Developer.developerList.append(name)
+        Developer.developerList.append(self)
 
 
 class Bug:
@@ -78,7 +79,6 @@ short_desc_thunder_root = short_desc_thunder.getroot()
 
 
 
-
 developerFreqList = []
 
 for child in resolution_bugzilla_root:
@@ -86,10 +86,22 @@ for child in resolution_bugzilla_root:
         bug = Bug(child.get('id'))
 
 for child in assigned_to_bugzilla_root:
-    if child[len(child.getchildren()) - 1][1].text:
-        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
-            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
-        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+    if child[len(child.getchildren()) - 1][1].text and child.get('id') in Bug.fixedBugIds:
+        dev = Developer(child[len(child.getchildren()) - 1][1].text, child.get('id'))
+
+for child in short_desc_bugzilla_root:
+    report_id = child.get('id')
+    if report_id in Bug.fixedBugIds:
+        what = ""
+        for update in child.findall('update'):
+            what = what + " " + str(update[1].text)
+        if what != "":    
+            for lep in Developer.developerList:
+                if(lep.id == report_id):
+                    report = Report(report_id, what, lep.name)
+        
+
+
 
 
 
@@ -98,10 +110,19 @@ for child in resolution_core_root:
         bug = Bug(child.get('id'))
 
 for child in assigned_to_core_root:
-    if child[len(child.getchildren()) - 1][1].text:
-        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
-            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
-        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+    if child[len(child.getchildren()) - 1][1].text and child.get('id') in Bug.fixedBugIds:
+        dev = Developer(child[len(child.getchildren()) - 1][1].text, child.get('id'))
+
+for child in short_desc_core_root:
+    report_id = child.get('id')
+    if report_id in Bug.fixedBugIds:
+        what = ""
+        for update in child.findall('update'):
+            what = what + " " + str(update[1].text)
+        if what != "":    
+            for lep in Developer.developerList:
+                if(lep.id == report_id):
+                    report = Report(report_id, what, lep.name)
 
 
 
@@ -110,10 +131,19 @@ for child in resolution_firefox_root:
         bug = Bug(child.get('id'))
 
 for child in assigned_to_firefox_root:
-    if child[len(child.getchildren()) - 1][1].text:
-        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
-            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
-        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+    if child[len(child.getchildren()) - 1][1].text and child.get('id') in Bug.fixedBugIds:
+        dev = Developer(child[len(child.getchildren()) - 1][1].text, child.get('id'))
+
+for child in short_desc_firefox_root:
+    report_id = child.get('id')
+    if report_id in Bug.fixedBugIds:
+        what = ""
+        for update in child.findall('update'):
+            what = what + " " + str(update[1].text)
+        if what != "":    
+            for lep in Developer.developerList:
+                if(lep.id == report_id):
+                    report = Report(report_id, what, lep.name)
 
 
 
@@ -123,37 +153,37 @@ for child in resolution_thunder_root:
         bug = Bug(child.get('id'))
 
 for child in assigned_to_thunder_root:
-    if child[len(child.getchildren()) - 1][1].text:
-        if child[len(child.getchildren()) - 1][1].text not in Developer.developerList:
-            developerFreqList.append(child[len(child.getchildren()) - 1][1].text)
-        dev = Developer(child[len(child.getchildren()) - 1][1].text)
+    if child[len(child.getchildren()) - 1][1].text and child.get('id') in Bug.fixedBugIds:
+        dev = Developer(child[len(child.getchildren()) - 1][1].text, child.get('id'))
 
-BugId_data = open('BugId.csv', 'w')
+for child in short_desc_thunder_root:
+    report_id = child.get('id')
+    if report_id in Bug.fixedBugIds:
+        what = ""
+        for update in child.findall('update'):
+            what = what + " " + str(update[1].text)
+        if what != "":    
+            for lep in Developer.developerList:
+                if(lep.id == report_id):
+                    report = Report(report_id, what, lep.name)
 
-csvwriter = csv.writer(BugId_data)
-BugId_head = []
-BugId_head.append('id')
-csvwriter.writerow(BugId_head)
 
-for bug in Bug.fixedBugIds:
-    BugId_row = []
-    BugId_row.append(bug)
-    csvwriter.writerow(BugId_row)
 
-BugId_data.close()
 
-Developer_data = open('Developers.csv', 'w')
+Report_data = open('Report.csv', 'w')
 
-csvwriter = csv.writer(Developer_data)
-Developer_head = []
-Developer_head.append('developer')
-Developer_head.append('Num of Bugs')
-csvwriter.writerow(Developer_head)
+csvwriter = csv.writer(Report_data)
+Report_head = []
+Report_head.append('id')
+Report_head.append('short_desc')
+Report_head.append('developer')
+csvwriter.writerow(Report_head)
 
-for i in range(len(developerFreqList)):
-    Developer_row = []
-    Developer_row.append(developerFreqList[i])
-    Developer_row.append(Developer.developerList.count(developerFreqList[i]))
-    csvwriter.writerow(Developer_row)
+for report in Report.reports:
+    report_row = []
+    report_row.append(report.bugId)
+    report_row.append(report.shortDesc)
+    report_row.append(report.developer)
+    csvwriter.writerow(report_row)
 
-Developer_data.close()
+Report_data.close()

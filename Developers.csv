@@ -1,1875 +1,1654 @@
-developer	Num of Bugs
-nobody@mozilla.org	2598
-bzbarsky@mit.edu	1245
-roc@ocallahan.org	855
-mrbkap@gmail.com	811
-general@js.bugs	701
-ehsan@mozilla.com	698
-gal@uci.edu	614
-LpSolit@gmail.com	593
-brendan@mozilla.org	592
-Olli.Pettay@gmail.com	581
-mkanat@bugzilla.org	553
-surkov.alexander@gmail.com	540
-dholbert@mozilla.com	529
-timeless@bemail.org	490
-dao@mozilla.com	487
-jorendorff@mozilla.com	457
-vladimir@pobox.com	436
-mh+mozilla@glandium.org	415
-longsonr@gmail.com	408
-gavin.sharp@gmail.com	383
-jfkthame@gmail.com	354
-bjacob@mozilla.com	347
-dvander@alliedmods.net	343
-mano@mozilla.com	337
-joshmoz@gmail.com	331
-jones.chris.g@gmail.com	322
-romaxa@gmail.com	304
-mak77@bonardo.net	296
-benjamin@smedbergs.us	293
-hsivonen@iki.fi	291
-jmathies@mozilla.com	286
-igor@mir2.org	279
-bienvenu@nventure.com	276
-peterv@propagandism.org	273
-bhackett1024@gmail.com	273
-dmandelin@mozilla.com	269
-mats.palmgren@bredband.net	265
-jwalden+bmo@mit.edu	263
-philringnalda@gmail.com	257
-masayuki@d-toybox.com	252
-jmuizelaar@mozilla.com	252
-justin.lebar+bug@gmail.com	250
-dbaron@mozilla.com	243
-matspal@gmail.com	240
-smontagu@smontagu.org	238
-smichaud@pobox.com	234
-dietrich@mozilla.com	233
-dbaron@dbaron.org	230
-bent.mozilla@gmail.com	229
-neil@httl.net	227
-mihai.sucan@gmail.com	220
-enndeakin@gmail.com	218
-mounir.lamouri@gmail.com	214
-chris@pearce.org.nz	212
-doug.turner@gmail.com	208
-jwalker@mozilla.com	205
-jonas@sicking.cc	200
-ginn.chen@sun.com	196
-bas.schouten@live.nl	195
-wmccloskey@mozilla.com	194
-mcmanus@ducksong.com	192
-m_kato@ga2.so-net.ne.jp	190
-sayrer@gmail.com	188
-mconley@mozilla.com	186
-khuey@kylehuey.com	184
-bugzilla@standard8.plus.com	180
-luke@mozilla.com	179
-sspitzer@mozilla.com	178
-kinetik@flim.org	178
-matt.woodrow@gmail.com	178
-richard.marti@gmail.com	178
-tnikkel@gmail.com	177
-raymond@appcoast.com	176
-robert.bugzilla@gmail.com	174
-jst@mozilla.org	173
-mstange@themasta.com	173
-ehsan.akhgari@gmail.com	167
-josh@joshmatthews.net	167
-zeniko@gmail.com	164
-Ms2ger@gmail.com	162
-joe@drew.ca	158
-anygregor@gmail.com	158
-honzab.moz@firemni.cz	157
-vporof@mozilla.com	156
-respindola@mozilla.com	153
-VYV03354@nifty.ne.jp	146
-crowder@fiverocks.com	146
-jwatt@jwatt.org	146
-lw@mozilla.com	142
-mkmelin+mozilla@iki.fi	141
-continuation@gmail.com	140
-bgirard@mozilla.com	140
-tglek@mozilla.com	134
-chris.double@double.co.nz	132
-aaronleventhal@moonset.net	129
-sgautherie.bz@free.fr	128
-dcamp@mozilla.com	126
-mak77@supereva.it	124
-past@mozilla.com	124
-karlt@mozbugz.karlt.net	123
-paul@oshannessy.com	120
-tim.taubert@gmx.de	117
-enndeakin@sympatico.ca	115
-rcampbell@mozilla.com	114
-dolske@mozilla.com	113
-bobbyholley+bmo@gmail.com	113
-blassey.bugs@lassey.us	110
-kengert@redhat.com	109
-bernd_mozilla@gmx.de	108
-jdaggett@mozilla.com	108
-nisses.mail@home.se	107
-mozbugz@karlt.net	106
-markcapella@twcny.rr.com	106
-pavlov@pavlov.net	105
-netzen@gmail.com	105
-edilee@gmail.com	104
-jduell.mcbugs@gmail.com	103
-ted.mielczarek@gmail.com	102
-reed@reedloden.com	101
-cdleary@mozilla.com	101
-bugs@bengoodger.com	99
-mounir@lamouri.fr	98
-myk@mozilla.org	97
-gerv@mozilla.org	95
-nnethercote@mozilla.com	94
-nfroyd@mozilla.com	93
-sharparrow1@yahoo.com	92
-squibblyflabbetydoo@gmail.com	91
-sphink@gmail.com	89
-bugs@pettay.fi	88
-florian@queze.net	88
-dwitte@gmail.com	87
-kaie@kuix.de	86
-paul@mozilla.com	85
-eitan@monotonous.org	84
-cam@mcc.id.au	83
-general@dom.bugs	82
-mozilla@Weilbacher.org	81
-marco.zehe@googlemail.com	81
-rjesup@jesup.org	81
-martijn.martijn@gmail.com	80
-nicolas.b.pierron@mozilla.com	80
-tor@acm.org	79
-evilpies@gmail.com	79
-jim@mozilla.com	79
-bolterbugz@gmail.com	79
-danderson@mozilla.com	79
-mratcliffe@mozilla.com	79
-ayg@aryeh.name	76
-birtles@gmail.com	76
-felipc@gmail.com	76
-jacek@codeweavers.com	76
-jimb@mozilla.com	76
-margaret.leibovic@gmail.com	75
-uriber@gmail.com	73
-general@svg.bugs	72
-johnath@mozilla.com	72
-sid.bugzilla@gmail.com	70
-igor.bukanov@gmail.com	69
-dtownsend@mozilla.com	69
-ttaubert@mozilla.com	69
-mscott@mozilla.org	68
-wuno@lsvw.de	68
-philipp@weitershausen.de	68
-matt.woodrow+bugzilla@gmail.com	65
-bwinton@latte.ca	65
-brettw@gmail.com	64
-bmo@edmorley.co.uk	64
-gps@mozilla.com	64
-annie.sullivan@gmail.com	64
-Evan.Yan@Sun.COM	63
-printing@core.bugs	63
-jminta@gmail.com	63
-jandemooij@gmail.com	63
-landry@openbsd.org	63
-mbanner@mozilla.com	63
-fabrice@mozilla.com	63
-zweinberg@mozilla.com	62
-graydon@mozilla.com	62
-jdemooij@mozilla.com	62
-trev.saunders@gmail.com	60
-fryn@frankyan.com	60
-bmo2007@rsz.jp	59
-l10n@mozilla.com	59
-fred.wang@free.fr	59
-terrence@mozilla.com	58
-dveditz@cruzio.com	57
-ventnor.bugzilla@yahoo.com.au	57
-dzbarsky@gmail.com	57
-bugmail@asutherland.org	57
-jruderman@gmail.com	56
-hub@mozilla.com	56
-ginn.chen@oracle.com	55
-jgilbert@mozilla.com	55
-mwu@mozilla.com	54
-joey@mozilla.com	53
-paul@paul.cx	53
-mark.finkle@gmail.com	52
-beltzner@mozilla.com	52
-mconnor@mozilla.com	52
-pwalton@mozilla.com	52
-bpeterson@mozilla.com	52
-ddahl@mozilla.com	52
-bugmail@sicking.cc	51
-cbiesinger@gmx.at	50
-acelists@atlas.sk	50
-echou@mozilla.com	50
-steffen.wilberg@web.de	49
-hv1989@gmail.com	49
-jschoenick@mozilla.com	49
-asqueella@gmail.com	48
-sdwilsh@forerunnerdesigns.com	48
-tellrob@gmail.com	48
-david.ascher@gmail.com	48
-michal.novotny@gmail.com	47
-mitcho@mitcho.com	46
-mixedpuppy@gmail.com	46
-ryanvm@gmail.com	45
-bugs.mano@sent.com	45
-pbiggar@mozilla.com	45
-adrake@mozilla.com	45
-mark@moxienet.com	44
-mar.castelluccio@studenti.unina.it	44
-jaws@mozilla.com	44
-bjarne@runitsoft.com	43
-dmose@mozilla.org	43
-lusian@gmail.com	43
-cpearce@mozilla.com	43
-pamg.bugs@gmail.com	42
-adw@mozilla.com	42
-clarkbw@gnome.org	42
-dkl@mozilla.com	41
-alfredkayser@nl.ibm.com	41
-david.bolter@utoronto.ca	41
-bsmith@mozilla.com	41
-bclary@bclary.com	40
-mhammond@skippinet.com.au	40
-azakai@mozilla.com	40
-ventnor.bugzilla@gmail.com	40
-bugmail@lassey.us	40
-tony@ponderer.org	39
-sagarwal@mozilla.com	39
-andrew.quartey@gmail.com	39
-vyang@mozilla.com	39
-aaronr@us.ibm.com	38
-msterlin@us.ibm.com	38
-hiikezoe@mozilla-japan.org	38
-mhammond@mozilla.com	38
-ajvincent@gmail.com	37
-highmind63@gmail.com	37
-atulagrwl@gmail.com	37
-dbienvenu@mozilla.com	37
-guy.pyrzak@gmail.com	36
-tterribe@vt.edu	36
-jbeich@tormail.org	36
-allan@beaufour.dk	35
-brian.lu@sun.com	35
-ethanhugg@gmail.com	35
-joe@retrovirus.com	35
-michael.wu@mozilla.com	34
-matjk7@gmail.com	34
-jwein@mozilla.com	34
-kyle@nonpolynomial.com	34
-leon.sha@sun.com	33
-honzab@allpeers.com	33
-kchen@mozilla.com	33
-ncameron@mozilla.com	33
-clian@mozilla.com	33
-andres@appcoast.com	33
-Jan.Varga@gmail.com	32
-mozilla@rosenauer.org	32
-dwitte@stanford.edu	32
-ul.mcamafia@linkitup.de	32
-jmaher@mozilla.com	32
-21@vingtetun.org	32
-n.nethercote@gmail.com	32
-darin@meer.net	31
-ispiked@gmail.com	31
-dao@design-noir.de	31
-wesongathedeveloper@yahoo.com	31
-ferjmoreno@gmail.com	31
-arno@renevier.net	30
-gpascutto@mozilla.com	30
-htsai@mozilla.com	30
-faaborg@mozilla.com	30
-shorlander@mozilla.com	30
-alfredkayser@gmail.com	29
-chrislord.net@gmail.com	29
-jgoldman@radiantcore.com	29
-bugzilla-mozilla@bkor.dhs.org	28
-query-and-buglist@bugzilla.bugs	28
-events@dom.bugs	28
-ben.bucksch@beonex.com	28
-kairo@kairo.at	28
-fantasai.bugs@inkedblade.net	28
-florian@mozilla.com	28
-benjamin@python.org	28
-mail@philipp-wagner.com	28
-bmcbride@mozilla.com	28
-julian.reschke@gmx.de	28
-amarchesini@mozilla.com	28
-jseward@acm.org	27
-sstangl@mozilla.com	27
-sjohnson@mozilla.com	27
-dsherk@mozilla.com	27
-kvijayan@mozilla.com	27
-aza@mozilla.com	27
-b56girard@gmail.com	26
-ian@iangilman.com	26
-sciguyryan@gmail.com	25
-graememcc_firefox@graeme-online.co.uk	25
-twanno@lycos.nl	25
-f.qu@queze.net	25
-t.matsuu@gmail.com	25
-giles@mozilla.com	25
-allstars.chh@mozilla.com	25
-gyeh@mozilla.com	25
-bellindira@appcoast.com	25
-thunder@mozilla.com	24
-michal@allpeers.com	24
-ben@stechz.com	24
-mrosenberg@mozilla.com	24
-nian.liu@sun.com	23
-dragtext@e-vertise.com	23
-dkeeler@mozilla.com	23
-dteller@mozilla.com	23
-jigneshhk1992@gmail.com	23
-jag@tty.nl	22
-sylvain.pasche@gmail.com	22
-stanshebs@earthlink.net	22
-cbarrett@mozilla.com	22
-me@kylehuey.com	22
-rflint@mozilla.com	22
-kaze@kompozer.net	22
-choller@mozilla.com	22
-bugzilla@sherk.me	22
-scrapmachines@gmail.com	22
-saneyuki.s.snyk@gmail.com	22
-marioalv.mozilla@gmail.com	22
-create-and-change@bugzilla.bugs	21
-sam.folkwilliams@gmail.com	21
-bugspam.Callek@gmail.com	21
-surkov@dc.baikal.ru	21
-alfred.peng@sun.com	21
-pilgrim@gmail.com	21
-taken.spc@gmail.com	21
-blassey@mozilla.com	21
-shailen.n.jain@gmail.com	21
-bnewman@mozilla.com	21
-efaust@mozilla.com	21
-xiaoou.wu@oracle.com	20
-selsky@columbia.edu	20
-glob@mozilla.com	20
-mbrubeck@mozilla.com	20
-glennrp+bmo@gmail.com	20
-mkristoffersen@mozilla.com	20
-dherman@mozilla.com	20
-michaelkohler@live.com	20
-cedricv@neonux.com	20
-anant@mozilla.com	20
-cyen@mozilla.com	20
-preed@mozilla.com	19
-xslt@core.bugs	19
-sciguyryan+bugzilla@gmail.com	19
-glennrp@gmail.com	19
-ispence@gmail.com	19
-tanya.meshkova@gmail.com	19
-seanedunn@yahoo.com	19
-tabraldes@mozilla.com	19
-ajuma@mozilla.com	19
-saurabhanandiit@gmail.com	19
-paolo.mozmail@amadzone.org	19
-cedric.corazza@wanadoo.fr	18
-koosha.khajeh@gmail.com	18
-shaver@mozilla.org	18
-xforms@core.bugs	18
-xfsunoles@gmail.com	18
-jonathan.protzenko@gmail.com	18
-chrisccoulson@ubuntu.com	18
-rsx11m.pub@gmail.com	18
-andrew@ishiboo.com	18
-async.processingjs@yahoo.com	18
-dougt@dougt.org	18
-ajones@mozilla.com	18
-gkrizsanits@mozilla.com	18
-josea.olivera@gmail.com	18
-maxli@maxli.ca	18
-Nomis101@web.de	18
-ondrej@allpeers.com	18
-kent@caspia.com	18
-gijskruitbosch+bugs@gmail.com	17
-general@bugzilla.bugs	17
-hwaara@gmail.com	17
-edilee@mozilla.com	17
-stransky@redhat.com	17
-arpad.borsos@googlemail.com	17
-hskupin@gmail.com	17
-jasone@canonware.com	17
-gozer@mozillamessaging.com	17
-sgreenlay@mozilla.com	17
-sstamm@mozilla.com	17
-jgriffin@mozilla.com	17
-bhsieh@mozilla.com	17
-mozbugz@dougt.org	17
-fayearthur@gmail.com	17
-ananuti@gmail.com	17
-mnoorenberghe+bmo@mozilla.com	17
-jviereck@mozilla.com	17
-dkl@redhat.com	16
-nrthomas@gmail.com	16
-bsterne@mozilla.com	16
-Pidgeot18@gmail.com	16
-craig.topper@gmail.com	16
-ikezoe@clear-code.com	16
-ehren.m@gmail.com	16
-kevin@kmgerich.com	16
-attach-and-request@bugzilla.bugs	15
-wurblzap@gmail.com	15
-gphemsley@gmail.com	15
-rbs@maths.uq.edu.au	15
-pkasting@google.com	15
-comrade693+bmo@gmail.com	15
-kliu.bugzilla.3c9f@mail.kailiu.com	15
-wladow@gmail.com	15
-ewong@pw-wspx.org	15
-snorp@snorp.net	15
-nsilva@mozilla.com	15
-unusualtears@gmail.com	15
-ffung@mozilla.com	15
-yhuang@mozilla.com	15
-jcoppeard@mozilla.com	15
-dale@arandomurl.com	15
-eseyman@linagora.com	14
-joshi_sunil@in.com	14
-xml@core.bugs	14
-rflint@dslr.net	14
-sdwilsh@mozilla.com	14
-frnchfrgg-mozbugs@altern.org	14
-cbook@mozilla.com	14
-jeremyhu@macports.org	14
-alexp@mozilla.com	14
-anarchy@gentoo.org	14
-kev@mozilla.com	14
-irving@mozilla.com	14
-vdjeric@mozilla.com	14
-slee@mozilla.com	14
-eflores@mozilla.com	14
-georg.fritzsche@googlemail.com	14
-ekr@rtfm.com	14
-swon@mozilla.com	14
-bugzilla@babylonsounds.com	14
-mozilla.bugs@alyoung.com	14
-anton@mozilla.com	14
-sgreen+mozilla@redhat.com	13
-smaug@welho.com	13
-mook.moz+mozbz@gmail.com	13
-wgianopoulos@yahoo.com	13
-dev@schonfeld.org	13
-Jacob.Bramley@arm.com	13
-bugmail.mozilla@staktrace.com	13
-vladd@bugzilla.org	12
-ui@bugzilla.bugs	12
-ghendricks@novell.com	12
-shimono@mozilla.gr.jp	12
-reed@mozilla.com	12
-zackw@panix.com	12
-bryner@brianryner.com	12
-bugzilla@mcsmurf.de	12
-steffen.imhof@googlemail.com	12
-geoff@darktrojan.net	12
-jhorak@redhat.com	12
-leofigueres@yahoo.com	12
-mitchell.field@live.com.au	12
-crowderbt@gmail.com	12
-wfernandom2004@gmail.com	12
-weppos@weppos.net	12
-ejpbruel@mozilla.com	12
-gwright@mozilla.com	12
-ryan@ryanflint.com	12
-stephen@noved.org	12
-supernova00@gmail.com	12
-soapyhamhocks@gmail.com	12
-dougt@meer.net	11
-win32@widget.bugs	11
-general@xbl.bugs	11
-gaomingcn@gmail.com	11
-amenzie@us.ibm.com	11
-regis.caspar+bz@gmail.com	11
-trev.moz@adblockplus.org	11
-wtc@google.com	11
-dwayne@translate.org.za	11
-cbiesinger@gmail.com	11
-wes@page.ca	11
-caillon@redhat.com	11
-bill@wg9s.com	11
-philbaseless-firefox@yahoo.com	11
-hurley@mozilla.com	11
-iann_bugzilla@blueyonder.co.uk	11
-gbrown@mozilla.com	11
-jezreel@gmail.com	11
-swu@mozilla.com	11
-abhishekp.bugzilla@gmail.com	11
-ithinc@sohu.com	11
-bwinton@mozilla.com	11
-bugzilla2007@duellmann24.net	11
-installation@bugzilla.bugs	10
-justdave@bugzilla.org	10
-user-accounts@bugzilla.bugs	10
-ajschult@verizon.net	10
-selection@mozilla.bugs	10
-sspeiche@us.ibm.com	10
-mnyromyr@tprac.de	10
-mozilla@kaply.com	10
-tuukka.tolvanen@gmail.com	10
-mossop.bugzilla@blueprintit.co.uk	10
-manish@flock.com	10
-Techrazy.Yang@gmail.com	10
-masa141421356@gmail.com	10
-sid1337@gmail.com	10
-dveditz@mozilla.com	10
-mars.martian+bugmail@gmail.com	10
-tyler.downer@gmail.com	10
-sergeyreym@gmail.com	10
-spectre@armory.com	10
-wjohnston@mozilla.com	10
-fherrera@onirica.com	10
-nfitzgerald@mozilla.com	10
-torisugari@gmail.com	10
-cpeterson@mozilla.com	10
-bdahl@mozilla.com	10
-tschneidereit@gmail.com	10
-thaddee.tyl@gmail.com	10
-adam@nostrum.com	10
-prazak@grisoft.cz	10
-johan.charlez@gmail.com	10
-bmo@rsz.jp	9
-wicked@sci.fi	9
-clegnitto@mozilla.com	9
-sergei_d@fi.tartu.ee	9
-vladimir.sukhoy@gmail.com	9
-asac@jwsdot.com	9
-armin76@gentoo.org	9
-arenevier@fdn.fr	9
-bhearsum@mozilla.com	9
-tyler@christianlink.us	9
-cbartley@mozilla.com	9
-bugzillaFred@gmail.com	9
-edwsmith@adobe.com	9
-unghost@mozilla-russia.org	9
-jhford@mozilla.com	9
-gary@rumblingedge.com	9
-acrichton@mozilla.com	9
-tlee@mozilla.com	9
-dhylands@mozilla.com	9
-onemen.one@gmail.com	9
-email-notifications@bugzilla.bugs	8
-emaijala@kolumbus.fi	8
-doronr@gmail.com	8
-cls@seawood.org	8
-form-submission@content.bugs	8
-trev@gtchat.de	8
-valastiak@mozilla.sk	8
-bholley@mozilla.com	8
-laurent@xulfr.org	8
-kliu@mozilla.kailiu.com	8
-dev-null@hotmail.co.jp	8
-tobias.hunger@gmail.com	8
-niederstrasser@gmail.com	8
-schranz.m@gmail.com	8
-joelr@mozilla.com	8
-leon.sha@oracle.com	8
-jothan@gmail.com	8
-nsm.nikhil@gmail.com	8
-tobbi.bugs@googlemail.com	8
-tschneidereit+bmo@gmail.com	8
-cyu@mozilla.com	8
-isaac.aggrey@gmail.com	8
-sonny.piers@gmail.com	8
-colin.ogilvie@gmail.com	7
-administration@bugzilla.bugs	7
-justdave@mozilla.com	7
-gbn@hqso.net	7
-jjclark1982@gmail.com	7
-vitaly.fedrushkov@gmail.com	7
-charting@bugzilla.bugs	7
-db48x@yahoo.com	7
-chpe@gnome.org	7
-moz@shorestreet.com	7
-wolfe@lobo.us	7
-ctalbert@mozilla.com	7
-paolo.02.prg@amadzone.org	7
-MaierMan@web.de	7
-apierce@mozilla.com	7
-jik@kamens.brookline.ma.us	7
-sindrebugzilla@gmail.com	7
-willyaranda@mozilla-hispano.org	7
-nchen@mozilla.com	7
-wchen@mozilla.com	7
-rpearl@mozilla.com	7
-shu@rfrn.org	7
-thomas@prip.nu	7
-jstraus@mozilla.com	7
-marshall@mozilla.com	7
-ewong3@gmail.com	7
-bas@basschouten.com	7
-jib@mozilla.com	7
-rhelmer@mozilla.com	7
-tymerkaev@gmail.com	7
-supernova_00@yahoo.com	6
-spam@bmo2007.rsz.jp	6
-bugzilla@chimpychompy.org	6
-michael.j.tosh@lmco.com	6
-Frank@Frank-Becker.de	6
-shimono@bug-ja.org	6
-timello@bugzilla.org	6
-mozeditor@floppymoose.com	6
-daumling@adobe.com	6
-scootermorris@comcast.net	6
-jhpedemonte@gmail.com	6
-silver@warwickcompsoc.co.uk	6
-bugs@ryan-jones.com	6
-stefanh@bluebottle.com	6
-daniel@glazman.org	6
-tonikitoo@gmail.com	6
-sspeiche@gmail.com	6
-doug@sheltonfamily.org	6
-mfenniak-moz@mathieu.fenniak.net	6
-nick.kreeger@park.edu	6
-fta+bugzilla@sofaraway.org	6
-johnjbarton@johnjbarton.com	6
-michael.monreal@gmx.net	6
-bobbyholley@stanford.edu	6
-nth10sd@gmail.com	6
-poincare@ikezoe.net	6
-crazy-daniel@gmx.de	6
-bugmail@millibyte.net	6
-pjemen@gmail.com	6
-dion.sole@gmail.com	6
-mitch_1_2@live.com.au	6
-daveryeo@telus.net	6
-mjarvin@gmail.com	6
-stefanh@inbox.com	6
-ludovic@mozillamessaging.com	6
-florian.haenel@heeen.de	6
-ilmari.heikkinen@gmail.com	6
-hage.jonathan@gmail.com	6
-tanvi@mozilla.com	6
-kwierso@gmail.com	6
-christopher.leary@cornell.edu	6
-chris@chrisdecairos.ca	6
-charles.wh.chan@gmail.com	6
-leonard.camacho@gmail.com	6
-valentin.gosu@gmail.com	6
-dbolter@mozilla.com	6
-shu@mozilla.com	6
-jkitch.bug@gmail.com	6
-jsmith@mozilla.com	6
-mcdavis941.bugs@gmail.com	6
-joseph.walker+bugzilla@gmail.com	6
-jasonyeo88@gmail.com	6
-beckley@qualcomm.com	6
-wicked+bz@etlicon.fi	5
-jlc6@po.cwru.edu	5
-database@bugzilla.bugs	5
-timello@linux.vnet.ibm.com	5
-webservice@bugzilla.bugs	5
-xpi-engine@installer.bugs	5
-iann_bugzilla@arlen.demon.co.uk	5
-jason_barnabe@fastmail.fm	5
-feng.qian.moz@gmail.com	5
-mook.moz+sites.org.mozilla.bugzilla@gmail.com	5
-suryaismail@gmail.com	5
-vasiliy.potapenko@gmail.com	5
-marcoos+bmo@marcoos.org	5
-thep@linux.thai.net	5
-hk9565@gmail.com	5
-jdarmochwal@gmx.de	5
-joduinn@mozilla.com	5
-abarth-mozilla@adambarth.com	5
-bholley@cs.stanford.edu	5
-tokoe@kde.org	5
-catlee@mozilla.com	5
-swsnyder@snydernet.net	5
-liucougar@gmail.com	5
-mmcnicklebugs@googlemail.com	5
-giles@xiph.org	5
-elchi3@elchi3.de	5
-webapps@stechz.com	5
-kevin.gadd@gmail.com	5
-jdicarlo@mozilla.com	5
-sjhworkman@gmail.com	5
-terrence@trainedmonkeystudios.org	5
-sworkman@mozilla.com	5
-npierron@mozilla.com	5
-reuben.morais@gmail.com	5
-junky.argonaut@gmail.com	5
-vinceyang15@gmail.com	5
-dev.akhawe+mozilla@gmail.com	5
-ebassi@mozilla.com	5
-foudil.newbie+bugzilla.mozilla.org@gmail.com	5
-pwang@mozilla.com	5
-bugzilla@design-noir.de	5
-alice0775@yahoo.co.jp	5
-kevin@cooliris.com	5
-pardal@gmx.de	5
-markus.magnuson@gmail.com	5
-getify@mozilla.com	5
-jon.rietveld@gmail.com	5
-herb@leo.org	5
-GoofyFr@gmail.com	5
-wicked@etlicon.fi	4
-documentation@bugzilla.bugs	4
-after.fallout@gmail.com	4
-fe@alterplast.ru	4
-aeiser@arc.nasa.gov	4
-kar@cray.com	4
-extensions@bugzilla.bugs	4
-abwillis1@gmail.com	4
-dbradley@gmail.com	4
-matthew@allpeers.com	4
-kherron+mozilla@fmailbox.com	4
-prefiks@aviary.pl	4
-engel@physics.harvard.edu	4
-jshin1987@gmail.com	4
-boissomag@free.fr	4
-jonsmirl@yahoo.com	4
-jlurz24@gmail.com	4
-ak.miller@auckland.ac.nz	4
-mozilla@jgaunt.com	4
-mwsteele@gmail.com	4
-codedread@gmail.com	4
-ryoqun@gmail.com	4
-oliver_yeoh@hotmail.com	4
-eshepherd@mozilla.com	4
-arno.@no-log.org	4
-jresig@mozilla.com	4
-ray@ganymede.org	4
-bugzilla@standard8.demon.co.uk	4
-msintov@macromedia.com	4
-prasad@medhas.org	4
-robarnold@mozilla.com	4
-web+moz@eschew.org	4
-anodelman@mozilla.com	4
-morac99-firefox2@yahoo.com	4
-hendrik.maryns@uni-tuebingen.de	4
-ynvich@gmail.com	4
-toddw@ActiveState.com	4
-avarma@mozilla.com	4
-ebutler@mozilla.com	4
-keith@keithschwarz.com	4
-philip.chee@gmail.com	4
-jmorkel@gmail.com	4
-nthomas@mozilla.com	4
-kbrosnan@gmail.com	4
-wmaddox@adobe.com	4
-paul.biggar@gmail.com	4
-jchen@mozilla.com	4
-bokeefe@alum.wpi.edu	4
-juca@members.fsf.org	4
-jorge@mozilla.com	4
-siarhei.siamashka@gmail.com	4
-adam@sigterm.info	4
-ojab@ojab.ru	4
-moz-ian@perix.co.uk	4
-kliu@code.kliu.org	4
-igor.bazarny@gmail.com	4
-jh.dev0@gmail.com	4
-jitenmt@gmail.com	4
-oussamabadr@gmail.com	4
-kennyluck@csail.mit.edu	4
-kmachulis@mozilla.com	4
-reuben.bmo@gmail.com	4
-jet@mozilla.com	4
-prp.1111@gmail.com	4
-poirot.alex@gmail.com	4
-diogo.gmt@gmail.com	4
-vchang@mozilla.com	4
-bsurender@mozilla.com	4
-ptseng@mozilla.com	4
-rclickenbrock@gmail.com	4
-cbrocious@mozilla.com	4
-PraZuBeR@gmail.com	4
-david.humphrey@senecac.on.ca	4
-mhabicher@mozilla.com	4
-emannion@gmail.com	4
-snandaku@cisco.com	4
-laden@csclub.uwaterloo.ca	4
-etienne@segonzac.info	4
-alex@crichton.co	4
-dchan+bugzilla@mozilla.com	4
-ctai@mozilla.com	4
-singerb.dev@gmail.com	4
-rwood@mozilla.com	4
-jh@junetz.de	4
-catalinn.iordache@gmail.com	4
-christineyen+bugs@gmail.com	4
-pascalc@gmail.com	4
-jboriss@mozilla.com	4
-fyan@mozilla.com	4
-debloper@gmail.com	4
-brian.carpenter@gmail.com	4
-livathinos.spyros@gmail.com	4
-dwalkowski@mozilla.com	4
-alta88@gmail.com	4
-splewako@aviary.pl	4
-sancus@off.net	4
-clokep@gmail.com	4
-philipp@bugzilla.kewis.ch	4
-bugzilla@glob.com.au	3
-remi_zara@mac.com	3
-guillomovitch@zarb.org	3
-vrb@novell.com	3
-altlist@gmail.com	3
-arbingersys@gmail.com	3
-bbaetz@acm.org	3
-ed.goose@gmail.com	3
-rupert@handfordonline.plus.com	3
-website@bugzilla.bugs	3
-sam@robots.org.uk	3
-hugo.seabrook@gmail.com	3
-tschoening@am-soft.de	3
-thesuckiestemail@yahoo.se	3
-marcldl+mozbugs@gmail.com	3
-wtchang@redhat.com	3
-jerfa@email.it	3
-saito@densan.co.jp	3
-file-handling@mozilla.bugs	3
-chofmann@gmail.com	3
-mhz@altlinux.org	3
-comrade693@gmail.com	3
-awuest@gmail.com	3
-traversal-range@dom.bugs	3
-sugar.waffle@gmail.com	3
-alqahira@ardisson.org	3
-shutdown@flashmail.com	3
-ronny.perinke@gmx.de	3
-stuart.morgan@alumni.case.edu	3
-philip@zaynar.demon.co.uk	3
-toshok@hungry.com	3
-x00000000@freenet.de	3
-rich@rd.gen.nz	3
-mozbugzilla@velox.ch	3
-gandalf@aviary.pl	3
-lolkaantimat@gmail.com	3
-karunasagark@gmail.com	3
-hasse@jasajudeju.se	3
-jet@adobe.com	3
-mpgritti@gmail.com	3
-simon@sxw.org.uk	3
-fittysix@gmail.com	3
-bruce@hoult.org	3
-harthur@mozilla.com	3
-addons@glaxstar.com	3
-eitan@ascender.com	3
-gzlist@googlemail.com	3
-Seno.Aiko@live.com	3
-fred.jen@web.de	3
-cliss@adobe.com	3
-mmelanso@adobe.com	3
-bugzilla@jesperkristensen.dk	3
-rsherry@adobe.com	3
-db48x@db48x.net	3
-mleibovic@mozilla.com	3
-ishikawa@yk.rim.or.jp	3
-froystig@cs.stanford.edu	3
-djeter@ripleycable.net	3
-ashie@clear-code.com	3
-lordpixel@mac.com	3
-tero.koskinen@iki.fi	3
-lsumar@mozilla.com	3
-felipe.sanches@gmail.com	3
-byronm@stanford.edu	3
-emanuel.hoogeveen@gmail.com	3
-charly.molter@gmail.com	3
-smadayag@adobe.com	3
-46b@gulli.com	3
-emanuele.costa@gmail.com	3
-nikosverschore@gmail.com	3
-rjesup@wgate.com	3
-dularylaurent@gmail.com	3
-Vincent.Lamotte@ensimag.imag.fr	3
-patrick@mozilla-enigmail.org	3
-szu.han.chang@gmail.com	3
-shawn@mozilla.com	3
-h.rayflood@gmail.com	3
-edgarf2002@gmail.com	3
-cdiehl@mozilla.com	3
-tcole@mozilla.com	3
-jon@jbuckley.ca	3
-chuku_regs@yahoo.com	3
-nmatsakis@mozilla.com	3
-kdevel@vogtner.de	3
-santiago.gimeno@gmail.com	3
-askalski@mozilla.com	3
-fabien.cellier@gmail.com	3
-murali.sr92@yahoo.com	3
-orangedaylily@gmail.com	3
-joey.blacksmith@gmail.com	3
-joseph.k.olivas@intel.com	3
-matias.juntunen@gmail.com	3
-pallanikumaran@gmail.com	3
-michaljev@o2.pl	3
-pookveeraya@gmail.com	3
-mozilla@christophkerschbaumer.com	3
-vliu@mozilla.com	3
-komh@chollian.net	3
-efaustbmo@gmail.com	3
-dpreston@mozilla.com	3
-joejoevictor@gmail.com	3
-ravicat2013@gmail.com	3
-thomas@thomasy.tw	3
-seth@mozilla.com	3
-bugs@junglecode.net	3
-nical.bugzilla@gmail.com	3
-edransch.contact@gmail.com	3
-irtmail-bugzilla@yahoo.in	3
-echen@mozilla.com	3
-tobias.netzel@googlemail.com	3
-tzimmermann@mozilla.com	3
-mgueury@skynet.be	3
-kohei.yoshino.bugs@gmail.com	3
-bugzilla@chrispederick.com	3
-tfullhart@mozilla.com	3
-tiger.zhang@sun.com	3
-w.woods@optusnet.com.au	3
-will.guaraldi@pculture.org	3
-john.p.baker@bristol.ac.uk	3
-mredivo@flock.com	3
-tbertels+bugzilla@gmail.com	3
-olege@google.com	3
-piro@p.club.ne.jp	3
-kdangoor@mozilla.com	3
-c.ascheberg@gmx.de	3
-ludovic@mozilla.com	3
-cers@geeksbynature.dk	3
-teramako@gmail.com	3
-hubert.sablonniere@gmail.com	3
-sankha93@gmail.com	3
-bisi@pikslar.com	3
-gwenger@qualcomm.com	3
-firefox@poczta.neostrada.pl	3
-rebron@gmail.com	3
-connor.behan@gmail.com	3
-edmund@belfordhk.com	3
-chris@sigxcpu.org	3
-mconley@mozillamessaging.com	3
-opera.wang@gmail.com	3
-sreepriya1111@gmail.com	3
-pdemarco@zoominternet.net	2
-cedric.caron@citycable.ch	2
-mbd@dbc.dk	2
-timello@gmail.com	2
-mdurthaler@sbcglobal.net	2
-nbezzala@yahoo.com	2
-rosie.clarkson@planningportal.gov.uk	2
-shimono+bug@gmail.com	2
-aliustek@gmail.com	2
-mockodin@gmail.com	2
-szabgab@gmail.com	2
-sbodomerle@gmail.com	2
-glob@glob.com.au	2
-chtrom@gmail.com	2
-mtyson@redhat.com	2
-aleksandr.v.tereschenko@linux.intel.com	2
-Dainis_Jonitis@exigengroup.lv	2
-mmoy@yahoo.com	2
-kovalchuk77@list.ru	2
-aqualon@aquachan.de	2
-David.R.Gardiner@gmail.com	2
-marria@gmail.com	2
-tonnes.mb@gmail.com	2
-jo.hermans@gmail.com	2
-behnam@zwnj.org	2
-cst@yecc.com	2
-gavin@picsel.com	2
-nick@reloco.com.ar	2
-darin.moz@gmail.com	2
-asrail@gmail.com	2
-Seno.Aiko@gmail.com	2
-netrolller.3d@gmail.com	2
-martynas@openbsd.org	2
-MikeM@RetekSolutions.com	2
-reg@freebsd.org	2
-asmith15@learn.senecac.on.ca	2
-ccooper@deadsquid.com	2
-asmith15@littlesvr.ca	2
-joanmarie.diggs@gmail.com	2
-matt@songbirdnest.com	2
-solar@netease.com	2
-philip.taylor@cl.cam.ac.uk	2
-david@luyer.net	2
-ldx@users.sourceforge.net	2
-vamposdecampos@gmail.com	2
-skumar@sta.samsung.com	2
-reg@openpave.org	2
-bfrisch@gmail.com	2
-mgalli@mgalli.com	2
-paul.rouget@gmail.com	2
-wesley-johnston@uiowa.edu	2
-hugues.fournier@gmail.com	2
-vmenezes@mozilla.com	2
-brade@comcast.net	2
-armenzg@mozilla.com	2
-johnsdaniels@yahoo.com	2
-eschew@gmail.com	2
-hectorchu@gmail.com	2
-mike.kaplinskiy@gmail.com	2
-steve@grommit.com	2
-nelson@bolyard.me	2
-rob@comodo.com	2
-hessamms@gmail.com	2
-andrei@runitsoft.com	2
-zeev.tarantov@gmail.com	2
-tdyas@zecador.org	2
-agl@chromium.org	2
-andrewshilliday@gmail.com	2
-abhishekbh@gmail.com	2
-gwagner@mozilla.com	2
-navinjlal@gmail.com	2
-zelgadis@mailinator.com	2
-ayakawa.m@gmail.com	2
-steveharper60@hotmail.com	2
-mozbug@ml.breakpoint.cc	2
-elmar.ludwig@uos.de	2
-bartml@wp.pl	2
-bringbackbsd@hotmail.com	2
-arisu@styl.us.to	2
-cleary@mozilla.com	2
-martin@NetBSD.ORG	2
-mozilla-bugs@micahscomputing.com	2
-starkov.egor@gmail.com	2
-bugzilla.mozilla.org@solsort.dk	2
-marcia@mozilla.org	2
-agx@sigxcpu.org	2
-legion@altlinux.org	2
-newstop@gmail.com	2
-jap@gnome.org	2
-maglione.k@gmail.com	2
-xpconnect@core.bugs	2
-jagw40k@free.fr	2
-brian.lu@oracle.com	2
-ajohnson@redneon.com	2
-tete009+bugzilla@gmail.com	2
-jag-mozilla@jag.dreamhost.com	2
-jpr@mozilla.com	2
-marky@activestate.com	2
-yoan.teboul@ensimag.imag.fr	2
-nossralf+bugzilla@gmail.com	2
-imelven@mozilla.com	2
-nospam.kotarou.dono@gmail.com	2
-choudharypranay@live.com	2
-adam@adamrosenfield.com	2
-edsrzf@gmail.com	2
-sandervv@gmail.com	2
-mmarcottulio@gmail.com	2
-abhishekkumarsingh.cse@gmail.com	2
-rpmdisguise-otros@yahoo.es	2
-sriram@mozilla.com	2
-daim.project@free.fr	2
-dholbert+bmo@gmail.com	2
-michaelkohler@linux.com	2
-rogerio.rag@gmail.com	2
-odvarko@gmail.com	2
-felix.the.cheshire.cat@gmail.com	2
-kevin@kevinlocke.name	2
-prabu@ti.com	2
-nickyekaiqi@gmail.com	2
-xph9753@yahoo.de	2
-frsela@tid.es	2
-arnaud.bienner@gmail.com	2
-bnicholson@mozilla.com	2
-dclarke@mozilla.com	2
-jhammel@mozilla.com	2
-stephen.moehle@gmail.com	2
-ianb@mozilla.com	2
-mmoutenot@mozilla.com	2
-atte.kemppila@iki.fi	2
-mgoodwin@mozilla.com	2
-mohitsinha251@gmail.com	2
-tal.aloni.il@gmail.com	2
-amac@tid.es	2
-ndesaulniers@mozilla.com	2
-slin@mozilla.com	2
-kmm537@gmail.com	2
-mozillabugs@lindenbergsoftware.com	2
-mchen@mozilla.com	2
-cviecco@mozilla.com	2
-jparsons@mozilla.com	2
-maligree@gmail.com	2
-chulee@mozilla.com	2
-rmkn85@gmail.com	2
-dave.hunt@gmail.com	2
-amod.narvekar@gmail.com	2
-jlmendezbonini@gmail.com	2
-cabanier@adobe.com	2
-felash@gmail.com	2
-mossop@blueprintit.co.uk	2
-jonathan_haas@web.de	2
-justin-bugzilla@dolske.net	2
-marek.stepien@gmail.com	2
-redux@splintered.co.uk	2
-petea@jhu.edu	2
-boullet.marc@wanadoo.fr	2
-rjonna@gmail.com	2
-varun21@gmail.com	2
-cfinke@gmail.com	2
-tbertels@gmail.com	2
-hidenosuke@hidenosuke.org	2
-sikon@lucidfox.org	2
-yuoo2k@gmail.com	2
-sevenfurnace@gmail.com	2
-jimmac@gmail.com	2
-klaas1988@gmail.com	2
-bugzilla@game-point.net	2
-vm@roboform.com	2
-jbecerra@mozilla.com	2
-gabri.best@gmail.com	2
-mz@scntt.de	2
-chlee@mozilla.com	2
-lenniger@yahoo.com	2
-anthony.s.hughes@gmail.com	2
-at.light@live.com.au	2
-rnewman@mozilla.com	2
-patilkr24@gmail.com	2
-chrismore.bugzilla@gmail.com	2
-mwein2009@gmail.com	2
-dan@danwendorf.com	2
-fayearthur+bugs@gmail.com	2
-theo.chevalier11@gmail.com	2
-kennyheaton@gmail.com	2
-vandhanaa91@gmail.com	2
-dtownsend+bugmail@oxymoronical.com	2
-saylesd1@msu.edu	2
-fracture91@gmail.com	2
-jonathan@speedbreeze.com	2
-fitzgen@gmail.com	2
-rail@mozilla.com	2
-patrick.brunschwig@gmx.net	2
-davidbienvenu@sbcglobal.net	2
-jwalden+fxhelp@mit.edu	2
-friedel@translate.org.za	2
-ebirol@gmail.com	2
-sivakrishna@synovel.com	2
-mloiseleur@linagora.com	2
-michel.renon@free.fr	2
-takeshi2@users.sourceforge.net	2
-vseerror@lehigh.edu	2
-jenzed@gmail.com	2
-schmid-thomas@gmx.net	2
-chimantaea_mirabilis@yahoo.co.jp	2
-gekacheka@yahoo.com	2
-bwinton@mozillamessaging.com	2
-james@jamesh.id.au	2
-aletheia2@fastmail.fm	2
-az@kth.se	2
-archaeopteryx@coole-files.de	2
-bugs@andreasn.se	2
-jesse@erlbaum.net	1
-bugreport@peshkin.net	1
-rudolf.ramler@scch.at	1
-avel+bugs@noc.uoa.gr	1
-bugs@toomuchblue.com	1
-bugzilla@joostdevalk.nl	1
-robzilla@siklos.ca	1
-david.geldreich@free.fr	1
-john@redux.org.uk	1
-noel@red-bean.com	1
-kevin.benton@amd.com	1
-altlst@sonic.net	1
-bugzilla@corris.org	1
-shaggy+bugzilla@eta.org	1
-chardin@2wire.com	1
-zakj@nox.cx	1
-cruch@andrew.cmu.edu	1
-michael@luidia.com	1
-turkersezer@tsdesign.info	1
-romaia@async.com.br	1
-brm@yoyodyne.com	1
-islobodin@yandex.ru	1
-tllilleh@yahoo.com	1
-alex@schuilenburg.org	1
-jlawson-mozilla@bovine.net	1
-SteveHay@planit.com	1
-webmaster@eclipse.org	1
-bugzilla@displague.com	1
-elliotte_martin@yahoo.com	1
-nelhawar@redhat.com	1
-surye80@gmail.com	1
-tfu@redhat.com	1
-robbat2@gentoo.org	1
-docwhat+mozillabugs@gerf.org	1
-francsd@linux.vnet.ibm.com	1
-ralf.hildebrandt@charite.de	1
-d.v.taylor@leedsmet.ac.uk	1
-jillpf55@sbcglobal.net	1
-bugzilla.1.wurblzap@spamgourmet.com	1
-Eric.Olson@adm.com	1
-m.thomas@valueclick.com	1
-dottedmag@altlinux.org	1
-aaron@larsonsonline.net	1
-ganaware+bugzilla+mozilla+org@gmail.com	1
-gjpc@circlesoft.com	1
-thomas.ehrnhoefer@tasktop.com	1
-krzysdrewniak@gmail.com	1
-adam@batkin.net	1
-arthurpbs@gmail.com	1
-aanisimov@inbox.ru	1
-bugzilla@veekun.com	1
-dmarshal@yahoo-inc.com	1
-dgl-mozilla@otherwize.co.uk	1
-graeme@chromosphere.co.uk	1
-bjoern@j3e.de	1
-shadarap@hotmail.com	1
-bugzilla@bombcar.com	1
-jochen.wiedmann@gmail.com	1
-com.mozilla@rjbs.manxome.org	1
-gyp@balabit.hu	1
-danw@gnome.org	1
-Alexei.Volkov@softlynx.ru	1
-michaelc@wush.net	1
-emmanuel.seyman@club-internet.fr	1
-incoming.email@bugzilla.bugs	1
-hakjer@netinsight.net	1
-mozilla.org@tower-net.de	1
-davidt@yadt.co.uk	1
-whining@bugzilla.bugs	1
-andershol@gmail.com	1
-sgreen@redhat.com	1
-bugzilla-mozilla@vitters.nl	1
-littlecritter@nasquan.com	1
-neil.parkwaycc.co.uk@bluebottle.com	1
-apm@dna.fi	1
-gdavis@nsisoftware.com	1
-davel@mozilla.com	1
-alqahira@mindspring.com	1
-tony@greyfirst.ca	1
-amardare@qnx.com	1
-adamlock@eircom.net	1
-ganesh.mozilla@gmail.com	1
-gautheri@noos.fr	1
-bugzilla@tecnocode.co.uk	1
-mh@glandium.org	1
-feng.qian@gmail.com	1
-nobody@nss.bugs	1
-mqmq87@web.de	1
-xptoolkit.xul@core.bugs	1
-srini@youos.com	1
-web-services@mozilla.bugs	1
-granrosebugs@gmail.com	1
-jonsmirl@gmail.com	1
-gheibi@gmail.com	1
-mozilla@smarinier.net	1
-giacomo.magnini@portalis.it	1
-mozilla@behdad.org	1
-bryner@gmail.com	1
-f.braem@skynet.be	1
-a-higuti@gray.plala.or.jp	1
-dom-to-text@mozilla.bugs	1
-gerald_leder@gmx.at	1
-niels.leenheer@gmail.com	1
-son.le0@gmail.com	1
-aus@noiseport.org	1
-mozilla@petewarden.com	1
-toshihiro@turbolinux.co.jp	1
-mozilla@lange.cx	1
-jduell@mozilla.com	1
-mclasen@redhat.com	1
-caillon@gmail.com	1
-falk@debian.org	1
-anlan@lange.cx	1
-prefs@mozilla.bugs	1
-rmh@aybabtu.com	1
-chris.shoemaker@cox.net	1
-brian.ewins@gmail.com	1
-wbardwel@curl.com	1
-bas.schouten@joost.com	1
-guenther@rudersport.de	1
-themystic.ca@gmail.com	1
-general@widget.bugs	1
-dwmw2@infradead.org	1
-samuel@sieb.net	1
-domob@daniel-kraft.net	1
-alltigerszhang@gmail.com	1
-mvl@exedo.nl	1
-lilmatt@flock.com	1
-christian.haberstroh@gmail.com	1
-smoehle@comcast.net	1
-mozilla@gaul.org	1
-daniel.bainton@gmail.com	1
-gabrielsjoberg@gmail.com	1
-jonitis@gmail.com	1
-betelgeuse@gentoo.org	1
-anemitz@gmail.com	1
-flamingice@sourmilk.net	1
-t.vanklaveren@student.utwente.nl	1
-bugzilla@quiteajolt.com	1
-ause@sun.com	1
-david@fastolfe.net	1
-aliumalik@gmail.com	1
-marc@petit-huguenin.org	1
-daniel.boelzle@sun.com	1
-kevin.bugzilla@atkinson.dhs.org	1
-masmullin@gmail.com	1
-rueenfiez@gmail.com	1
-shanec@ActiveState.com	1
-astralstorm@gmail.com	1
-jfwfreo@tpgi.com.au	1
-rubys@intertwingly.net	1
-anant@kix.in	1
-swsnyder@insightbb.com	1
-tester@tester.ca	1
-bernard.alleysson@gmail.com	1
-spamtest@littlesvr.ca	1
-tim_tim2000@mail.ru	1
-nossralf@gmail.com	1
-lholst@students.cs.uu.nl	1
-hb@calen.de	1
-leon.sha@gmail.com	1
-kayjay@poczta.fm	1
-gyuyoung.kim@samsung.com	1
-sethbugs@gmail.com	1
-gfleischer+bugzilla@gmail.com	1
-colin@theblakes.com	1
-fwsmail35@aol.com	1
-wasti.redl@gmx.net	1
-bengt.erik.soderstrom@telia.com	1
-gzjjgod@gmail.com	1
-WCWedin@gmail.com	1
-mime@google.com	1
-darkweaver@gmail.com	1
-danielgutson@gmail.com	1
-drry+mozilla@livedoor.com	1
-lukasblakk@gmail.com	1
-bugzilla@luisdelarosa.com	1
-mcs@pearlcrescent.com	1
-kdekorte@yahoo.com	1
-gnorton@novell.com	1
-jamesbunton@fastmail.fm	1
-jjfitzgerald@gmail.com	1
-frnchfrgg@free.fr	1
-simon.bugzilla@googlemail.com	1
-denistn@gmail.com	1
-sylvain.spinelli@free.fr	1
-jdschuh@us.ibm.com	1
-david+mozilla@triendl.name	1
-siraj.razick@collabora.co.uk	1
-pvh@pvh.ca	1
-mininet@wanadoo.fr	1
-chris.bugzilla@gmail.com	1
-rginda@hacksrus.com	1
-rsesek@bluestatic.org	1
-zadkiel.m@gmail.com	1
-mr.mcbugs@gmail.com	1
-bero@arklinux.org	1
-johnflux@gmail.com	1
-koen@emweb.be	1
-mook@songbirdnest.com	1
-jamesboston@gmail.com	1
-oceanl@vt.edu	1
-tomeu@sugarlabs.org	1
-hkygrts@yahoo.com	1
-hao.dong@sun.com	1
-aki@mozilla.com	1
-tom.dyas@gmail.com	1
-wiking@maeth.com	1
-alessandro.cogliati@gmail.com	1
-caywood@gmail.com	1
-ds@schleef.org	1
-dennis@ausil.us	1
-wraithlike@gmail.com	1
-mmovassate@mozilla.com	1
-msullivan@mozilla.com	1
-marti@juffo.org	1
-alex.mozilla@gmail.com	1
-conrad@metadecks.org	1
-mozilla-bugzilla@outofhanwell.com	1
-nicolas.justin@opentrust.com	1
-antoine.mozilla-bugzilla@2xmlabs.com	1
-glen.beasley@sun.com	1
-jaakko.kiviluoto@digia.com	1
-nirbheek.chauhan@gmail.com	1
-julieni@microsoft.com	1
-philipp@redfish-solutions.com	1
-redicke@learn.senecac.on.ca	1
-zbychs@gmail.com	1
-bill.lancashire@o2.co.uk	1
-ekrem.tomur@gmail.com	1
-chithraprabhap@gmail.com	1
-moz_poro@porotal.org	1
-turuoka@colorlessplanet.org	1
-philippe.deryck@cs.kuleuven.be	1
-onehepcat@gmail.com	1
-matthew.gertner@gmail.com	1
-j@oil21.org	1
-bluepenguin@gmail.com	1
-wagnerg@uci.edu	1
-chris@mips.com	1
-axel.linder.vc@googlemail.com	1
-khadgaray@gmail.com	1
-krangam@gmail.com	1
-bugzilla-mozilla@vendor.thewrittenword.com	1
-rwinchel@adobe.com	1
-timeless@gmail.com	1
-richard.coe@med.ge.com	1
-mwoodrow@mozilla.com	1
-cliff@snipe444.org	1
-andreas.wictor@xcerion.com	1
-mozilla+ben@benjamn.com	1
-yong.wu@intel.com	1
-harry.li@pagefreedom.org	1
-me@kcome.org	1
-kou@clear-code.com	1
-ricow@chromium.org	1
-corentin.chary@gmail.com	1
-ilpo.ruotsalainen@movial.com	1
-blewis@freedomscientific.com	1
-reportbase@gmail.com	1
-jdemooij@gmail.com	1
-andrzej.trznadel@intel.com	1
-hanno@hboeck.de	1
-pirkka.danger.karenlampi@gmail.com	1
-mattm@chromium.org	1
-btodur@nvidia.com	1
-hwti@hotmail.com	1
-drew@zitnay.com	1
-gribozavr@gmail.com	1
-pkst@gmx.net	1
-jonkhemming@gmail.com	1
-roger.wang@intel.com	1
-Simetrical+ff@gmail.com	1
-jimnchen+bmo@gmail.com	1
-alangpierce@gmail.com	1
-steven_tseng15@hotmail.com	1
-adam.michel@gmail.com	1
-lultimouomo@gmail.com	1
-lmesa@mozilla.com	1
-Sevenspade@gmail.com	1
-cedric.vincent@st.com	1
-dsicore@mozilla.com	1
-bugs@linkmauve.fr	1
-galtgendo@o2.pl	1
-redhatter@gentoo.org	1
-mozillatomwuttke@gmail.com	1
-alexander.miller@sbcglobal.net	1
-eric.hennigan@uci.edu	1
-kazuki.ohta@gmail.com	1
-annaopensource@gmail.com	1
-canvas.webgl@core.bugs	1
-blizzard@mozilla.com	1
-matti@mversen.de	1
-plaes@plaes.org	1
-caolanm@redhat.com	1
-mozilla@qraynaud.eu	1
-and_j_rob@yahoo.com	1
-stejohns@adobe.com	1
-matthew@trebex.net	1
-sruff@nvidia.com	1
-klausernst2@gmx.de	1
-christoph.diehl@xophdware.com	1
-mnemo@minimum.se	1
-sgong@mozilla.com	1
-dalekim1@illinois.edu	1
-sdaugherty@gmail.com	1
-rfaber@gmail.com	1
-kwwaters@gmail.com	1
-mmahan@nvidia.com	1
-malex@cs.utexas.edu	1
-rodd.zurcher@motorola.com	1
-cazacu.daniell@yahoo.com	1
-wade.cameron@gmail.com	1
-onlinevishnu@gmail.com	1
-tipecaml@gmail.com	1
-nanodevwiz@yahoo.com	1
-nigelbabu@gmail.com	1
-ajax16384@gmail.com	1
-malek@lcde.net	1
-Ainsley.Chong@gmail.com	1
-sreenidimn@gmail.com	1
-karel.rank@gmail.com	1
-wlachance@mozilla.com	1
-yghannam@gmail.com	1
-daniloshiga@gmail.com	1
-dflanagan@mozilla.com	1
-bmoss@mozilla.com	1
-hobinjk@gmail.com	1
-martius@martiusweb.net	1
-andrescordova87@gmail.com	1
-l5m5.dev@gmail.com	1
-innomotive@gmail.com	1
-kgupta@mozilla.com	1
-t_arceri@yahoo.com.au	1
-aditya@adityabhatt.org	1
-yati.sagade@gmail.com	1
-jkoleszar@google.com	1
-mujtabaar@gmail.com	1
-blackhole@herhut.de	1
-wolfgang@germund.name	1
-cryptooctoploid@gmail.com	1
-hfiguiere@teaser.fr	1
-antti@haapala.name	1
-rreitmai@adobe.com	1
-khaledhosny@eglug.org	1
-nattofriends@gmail.com	1
-rldhont@gmail.com	1
-panagiotis.koutsourakis@gmail.com	1
-roland.kuck@gmx.de	1
-jan.bambach@hotmail.de	1
-vbs85@gmx.de	1
-ku.b@gmx.de	1
-mi+mozilla@aldan.algebra.com	1
-tcallawa@redhat.com	1
-greg.karz@gmail.com	1
-plop2plopplop@gmail.com	1
-k.kotlenga@sims.pl	1
-nmiell@gmail.com	1
-fu@mips.com	1
-david.c.seifried@gmail.com	1
-docwhat@gerf.org	1
-taras.mozilla@glek.net	1
-sowmya.ravidas@gmail.com	1
-savita.seetaraman5@gmail.com	1
-mcoates@mozilla.com	1
-mhagger@alum.mit.edu	1
-mozstuff@mikek.dk	1
-thinker@codemud.net	1
-tack-bugzilla@urandom.ca	1
-malenesok007@yahoo.com	1
-corey@kb1pkl.me	1
-ph@phhart.de	1
-ladamski@mozilla.com	1
-vicamo@gmail.com	1
-daniellevin2607@gmail.com	1
-bmo2010@ilias.ca	1
-passfree@gmail.com	1
-ben@krellian.com	1
-otaylor@redhat.com	1
-richard@vdberg.org	1
-francoiswang@gmail.com	1
-ekw1@yahoo.com	1
-pyalot@gmail.com	1
-mreavy@mozilla.com	1
-jake.holzinger@gmail.com	1
-pallavikumarijha@gmail.com	1
-nerdcorerising@gmail.com	1
-mjambor@suse.cz	1
-aem_koenraadt@hotmail.com	1
-pengkang2011@u.northwestern.edu	1
-mvines@codeaurora.org	1
-alexandr.jenaldiev@gmail.com	1
-pcheng@gmx.com	1
-showdown345@gmail.com	1
-alice.lieutier@gmail.com	1
-twilliampowell@gmail.com	1
-pierre@brin-de-toile.fr	1
-david.humphrey@senecacollege.ca	1
-mjt+mozilla@tls.msk.ru	1
-xel1045@gmail.com	1
-rpearl@endofunctor.org	1
-dev.akhawe@gmail.com	1
-mnedeleg@yahoo.fr	1
-kshriram18@gmail.com	1
-adbugz@mailinator.com	1
-bellot.zoe@gmail.com	1
-john@nextraweb.com	1
-martenschilstra@gmail.com	1
-amckay@mozilla.com	1
-william@intaglio.org.uk	1
-alessandro.d@gmail.com	1
-cib123@googlemail.com	1
-felix_moeller@gmx.net	1
-SeanDer13@gmail.com	1
-andy@benton.eu.com	1
-mozilla@davidbienvenu.org	1
-ujjwal.wadhawan@gmail.com	1
-acperez@tid.es	1
-iliu@mozilla.com	1
-rcatolino@mozilla.com	1
-zaichenkov@gmail.com	1
-wnayes@gmail.com	1
-ptheriault@mozilla.com	1
-philames@google.com	1
-martin.vogt@itwm.fraunhofer.de	1
-timdream+bugs@gmail.com	1
-evold@mozilla.com	1
-mfowler@mozilla.com	1
-six.dsn@gmail.com	1
-schien@mozilla.com	1
-tdz@users.sourceforge.net	1
-anthony@ricaud.me	1
-czchen@gmail.com	1
-dmt.alexandre@gmail.com	1
-tomas.dainovec@gmail.com	1
-mcjimenez@gfi.es	1
-foudil.newbie+bmo@gmail.com	1
-gsvelto@mozilla.com	1
-ehung@mozilla.com	1
-ffhaddad@ucsd.edu	1
-zack.carter@gmail.com	1
-atsai@mozilla.com	1
-swenruzicka@gmail.com	1
-btm@tech.email.ne.jp	1
-folecr@gmail.com	1
-s@rednaks.tn	1
-olivier.pis.langlois@transport.alstom.com	1
-abrjpt@gmail.com	1
-haog@andrew.cmu.edu	1
-mcepl@redhat.com	1
-mmc@mozilla.com	1
-psiddh@gmail.com	1
-steve@ssinger.info	1
-catalin.usurelu5@gmail.com	1
-ted@mielczarek.org	1
-philippuryear@gmail.com	1
-cusser.bugs@cusser.net	1
-gidsgoldberg@gmail.com	1
-mahowi@gmx.net	1
-build.config@firefox.bugs	1
-jay@mozilla.org	1
-steven@silverorange.com	1
-beng@google.com	1
-toadking@lueshi.com	1
-changdong.cui@sun.com	1
-faaborg+bugzilla@gmail.com	1
-spanish@evangelism.bugs	1
-cst@andrew.cmu.edu	1
-bugzilla@dolphinling.net	1
-looney.liz@gmail.com	1
-mozilla@gozer.org	1
-ventnors_dogs234@yahoo.com.au	1
-toniher@softcatala.org	1
-mglenn@radiantcore.com	1
-pablo@fliagreco.com.ar	1
-joelnackman@gmail.com	1
-zach@zachlipton.com	1
-jhenry@ccs.neu.edu	1
-mtschrep@gmail.com	1
-dsledz.bugs@gmail.com	1
-roula@reelnewmedia.com	1
-jaap@haitsma.org	1
-aeruder@ksu.edu	1
-jfcst24@yahoo.com	1
-gagiorgio@yahoo.com	1
-freitaka@blarg.net	1
-hubert.gajewski@gmail.com	1
-richwklein@mchsi.com	1
-mimecuvalo@gmail.com	1
-b_peterson@yahoo.com	1
-kakadu+bugzilla@gmail.com	1
-adamsplugins@gmail.com	1
-jacksmernov@yahoo.com	1
-goodwill.mozilla.bugzilla@webhippo.org	1
-geuis.teses@gmail.com	1
-andrey@gromyko.name	1
-basic@mozdev.org	1
-p.franc@gmail.com	1
-toad@amphibian.dyndns.org	1
-Jia-Qin.Shi@Sun.COM	1
-ahaas@airmail.net	1
-villepohjanheimo+bugzilla@fastmail.fm	1
-bugs@jasnapaka.com	1
-dave.lin@sun.com	1
-samuel.sidler@gmail.com	1
-roytam@gmail.com	1
-benoit.leseul@gmail.com	1
-maxf@magma.ca	1
-polvi@mozilla.com	1
-bugzilla@n321.com	1
-shift.themes@gmail.com	1
-tjduavis@gmail.com	1
-xtc4uall@gmail.com	1
-longfocus@gmail.com	1
-tnarik@gmail.com	1
-erwan@flock.com	1
-XerBlade@gmail.com	1
-moz-bugs@maltekraus.de	1
-michel.gutierrez@gmail.com	1
-legege@legege.com	1
-toddsf@gmail.com	1
-jacob@87k.net	1
-bugs@krickelkrackel.de	1
-yehudab@gmail.com	1
-mikeperry.unused@gmail.com	1
-ifette@google.com	1
-wagner.sim88@web.de	1
-stas@mozilla.com	1
-parasytic@gmail.com	1
-mrinal.kant@gmail.com	1
-g.maone@informaction.com	1
-suso.baleato@xunta.es	1
-phalgand@avanquest.com	1
-roberto.estrada@yahoo.es	1
-william.jon.mccann@gmail.com	1
-hubert@hubertgajewski.com	1
-crusader@dc3.ca	1
-jason@alioth.us	1
-morac99-firefox@yahoo.com	1
-jmgregory@gmail.com	1
-leftturnsolutions@yahoo.com	1
-bruno@flock.com	1
-ami.schieber@trusteer.com	1
-support@billeo.com	1
-qheaden@phaseshiftsoftware.com	1
-mnoorenberghe@mozilla.com	1
-rockmfr@gmail.com	1
-migaelm@gmail.com	1
-buchner.johannes@gmx.at	1
-bowserj@unbc.ca	1
-jford@mozilla.com	1
-grddev@gmail.com	1
-a.topal@redronin.de	1
-jose@appcoast.com	1
-tom.gl@free.fr	1
-Cork@Tele2.se	1
-davemgarrett@gmail.com	1
-lloyd@hilaiel.com	1
-oyljerry@hotmail.com	1
-mick@mickweiss.com	1
-greg.mosher@avg.com	1
-james-p@moving-picture.com	1
-francesco.lodolo@gmail.com	1
-skunk@iSKUNK.ORG	1
-zandr@mozilla.com	1
-extension.compatibility@firefox.bugs	1
-michael.monreal+moz@gmail.com	1
-smartell@mozilla.com	1
-szo@ies.hu	1
-mgway12@gmail.com	1
-gjimenez@mozilla.com	1
-martincerdeira@gmail.com	1
-fligtar@mozilla.com	1
-eevee.mozilla@veekun.com	1
-coop@mozilla.com	1
-lorchard@mozilla.com	1
-miguel.ojeda.sandonis@gmail.com	1
-LoN_Kamikaze@gmx.de	1
-dshigabz@gmail.com	1
-Ken@klbproductions.com	1
-linux.anas@gmail.com	1
-pawsome@ya.ru	1
-filmil@gmail.com	1
-spirit55555@gmail.com	1
-pcvrcek@mozilla.cz	1
-alastairrob@hotmail.com	1
-elancaster@mozilla.com	1
-marffin@gmail.com	1
-Martin.vGagern@gmx.net	1
-vtanase.bugzilla@gmail.com	1
-mozillamarcia.knous@gmail.com	1
-milos@mozilla.com	1
-trl@andrew.cmu.edu	1
-clouserw@gmail.com	1
-jfong@mozilla.com	1
-pafelka@gmail.com	1
-brijesh3105@gmail.com	1
-alastair@ajor.co.uk	1
-mrshux@gmail.com	1
-iorsh@users.sourceforge.net	1
-enzomatrix@gmail.com	1
-lgvalent@gmail.com	1
-cyberscorpio@gmail.com	1
-alex.lakatos@softvision.ro	1
-synodinos@gmail.com	1
-adeubank@gmail.com	1
-piers@eightytwo.com.au	1
-cfree731@gmail.com	1
-owenjonesuk@yahoo.com	1
-tru3cougar@gmail.com	1
-owenccarpenter@gmail.com	1
-tanner.sumo.bugs@gmail.com	1
-artpar@gmail.com	1
-amir.aharoni@mail.huji.ac.il	1
-aadib@mozilla.com	1
-bzhao@mozilla.com	1
-b3nton@gmail.com	1
-mhanson@mozilla.com	1
-bwalker@mozilla.com	1
-owen@owencoutts.com	1
-miles@userbound.com	1
-swex@mozilla.com	1
-dmc@gyrae.net	1
-jfengler4@gmail.com	1
-limweizhong@gmail.com	1
-shlomif@shlomifish.org	1
-xabolcs@maffia.hu	1
-denis.rotnov@gmail.com	1
-rahul123bhardwaj@gmail.com	1
-yosy101@gmail.com	1
-hrach.cz@gmail.com	1
-ksk.3393@gmail.com	1
-nancibonfim@gmail.com	1
-hsoft@hardcoded.net	1
-lco@mozilla.com	1
-dev.nibo@gmail.com	1
-aklotz@mozilla.com	1
-zmgmoz@gmail.com	1
-alexbio2008@yahoo.com	1
-mamacdon@gmail.com	1
-yura.zenevich@gmail.com	1
-robert@accettura.com	1
-AlexIhrig@thunderbird-mail.de	1
-y.rouillard@laposte.net	1
-hesslow@gmail.com	1
-mkmelin+bmo@iki.fi	1
-morgamic@gmail.com	1
-bugzilla.mozilla@rjb.za.net	1
-patrick.hendriks+bugzilla@gmail.com	1
-nachmore@gmail.com	1
-stefan.rijnhart@milieudefensie.nl	1
-ch.ey@gmx.net	1
-ptomli.bugzilla@gmail.com	1
-dommy.fdo@gmail.com	1
-mcow@well.com	1
-patrick.bugs@wagstrom.net	1
-prometeo.bugs@gmail.com	1
-markushossner@gmx.de	1
-dwiggins@qualcomm.com	1
-christianha1111@aon.at	1
-bugzilla.mozilla.org-1@chsc.dk	1
-bugmil.ebirol@gmail.com	1
-touraine@users.sourceforge.net	1
-bielawski1@gmail.com	1
-moz_en-gb@tyndall.org.uk	1
-sunil@synovel.com	1
-joybaggins@gmail.com	1
-mozilladev@fstsoft.de	1
-lionel@mamane.lu	1
-donna.oberes@gmail.com	1
-kfitzner@excelcia.org	1
-mschroeder@mozilla.x-home.org	1
-ozwye@dodgit.com	1
-yuenhoe@hotmail.com	1
-sorin.savu@gmail.com	1
-alexxed@gmail.com	1
-dstillman+bugzilla@gmail.com	1
-ulysse@email.it	1
-ilja_sekler_@gmx.de	1
-dagger.bugzilla@gmail.com	1
-cristiklein@gmail.com	1
-parasyte@kodewerx.org	1
-accounts@nagurny.com	1
-mueller8@gmx-topmail.de	1
-dreadnaut@gmail.com	1
-jzhang918@gmail.com	1
-mlissner@michaeljaylissner.com	1
-greenrecyclebin@gmail.com	1
-janmoesen_=-bugzilla-=+spamtrap@moesen.nu	1
-nehalmistry@gmx.net	1
-zcrendel@gmail.com	1
-smolejv@gmx.net	1
-stacy@millions.ca	1
-bugzilla_at_mozilla@peteru.dnsalias.net	1
-luckydog_1@qq.com	1
-rolnas@gmail.com	1
-jurko.gospodnetic@pke.hr	1
-rossi@hutzlprecm.com	1
-dave@briks.si	1
-dardokleiner@gmail.com	1
-bugzilla@planet.nl	1
-michal.stanke@mikk.cz	1
-rq@akl.lt	1
-iagosrl@gmail.com	1
-dds@aueb.gr	1
-gozer@mozilla.com	1
-dan.callahan@gmail.com	1
-samuel.mueller@leven.ch	1
-trunga0@gmail.com	1
-estesp@fastmail.us	1
-jhopkins@mozilla.com	1
-heliosbryan@gmail.com	1
-bugzilla@firehacks.org	1
-awjohnston1@gmail.com	1
-axelg@gofree.indigo.ie	1
-zeyufly@gmail.com	1
-briks.si@gmail.com	1
+developer,Num of Bugs
+bugzilla-mozilla@bkor.dhs.org,28
+timeless@bemail.org,490
+LpSolit@gmail.com,593
+supernova_00@yahoo.com,6
+mkanat@bugzilla.org,553
+pdemarco@zoominternet.net,2
+jesse@erlbaum.net,1
+colin.ogilvie@gmail.com,7
+bugreport@peshkin.net,1
+wicked@etlicon.fi,4
+spam@bmo2007.rsz.jp,6
+bugzilla@chimpychompy.org,6
+rudolf.ramler@scch.at,1
+vladd@bugzilla.org,12
+bmo@rsz.jp,9
+gijskruitbosch+bugs@gmail.com,17
+justdave@bugzilla.org,10
+wicked@sci.fi,9
+eseyman@linagora.com,14
+wicked+bz@etlicon.fi,5
+bugs@toomuchblue.com,1
+reed@reedloden.com,101
+bugzilla@glob.com.au,3
+bugzilla@joostdevalk.nl,1
+remi_zara@mac.com,3
+cedric.caron@citycable.ch,2
+guillomovitch@zarb.org,3
+robzilla@siklos.ca,1
+vrb@novell.com,3
+bmo2007@rsz.jp,59
+sam.folkwilliams@gmail.com,21
+myk@mozilla.org,97
+david.geldreich@free.fr,1
+mbd@dbc.dk,2
+john@redux.org.uk,1
+noel@red-bean.com,1
+michael.j.tosh@lmco.com,6
+after.fallout@gmail.com,4
+joshi_sunil@in.com,14
+gerv@mozilla.org,95
+altlst@sonic.net,1
+fe@alterplast.ru,4
+aeiser@arc.nasa.gov,4
+bugzilla@corris.org,1
+shaggy+bugzilla@eta.org,1
+zakj@nox.cx,1
+michael@luidia.com,1
+romaia@async.com.br,1
+timello@gmail.com,2
+brm@yoyodyne.com,1
+islobodin@yandex.ru,1
+altlist@gmail.com,3
+tllilleh@yahoo.com,1
+alex@schuilenburg.org,1
+shimono@mozilla.gr.jp,12
+xiaoou.wu@oracle.com,20
+bugspam.Callek@gmail.com,21
+cedric.corazza@wanadoo.fr,18
+jlawson-mozilla@bovine.net,1
+SteveHay@planit.com,1
+guy.pyrzak@gmail.com,36
+webmaster@eclipse.org,1
+bugzilla@displague.com,1
+vitaly.fedrushkov@gmail.com,7
+arbingersys@gmail.com,3
+elliotte_martin@yahoo.com,1
+bbaetz@acm.org,3
+dkl@redhat.com,16
+mdurthaler@sbcglobal.net,2
+ed.goose@gmail.com,3
+surye80@gmail.com,1
+tfu@redhat.com,1
+robbat2@gentoo.org,1
+rupert@handfordonline.plus.com,3
+docwhat+mozillabugs@gerf.org,1
+reed@mozilla.com,12
+selsky@columbia.edu,20
+francsd@linux.vnet.ibm.com,1
+jlc6@po.cwru.edu,5
+ralf.hildebrandt@charite.de,1
+d.v.taylor@leedsmet.ac.uk,1
+Frank@Frank-Becker.de,6
+jillpf55@sbcglobal.net,1
+bugzilla.1.wurblzap@spamgourmet.com,1
+nbezzala@yahoo.com,2
+rosie.clarkson@planningportal.gov.uk,2
+Eric.Olson@adm.com,1
+kar@cray.com,4
+m.thomas@valueclick.com,1
+dottedmag@altlinux.org,1
+aaron@larsonsonline.net,1
+ganaware+bugzilla+mozilla+org@gmail.com,1
+gjpc@circlesoft.com,1
+thomas.ehrnhoefer@tasktop.com,1
+sid.bugzilla@gmail.com,70
+shimono+bug@gmail.com,2
+aliustek@gmail.com,2
+mockodin@gmail.com,2
+gphemsley@gmail.com,15
+krzysdrewniak@gmail.com,1
+paul@oshannessy.com,120
+adam@batkin.net,1
+szabgab@gmail.com,2
+sbodomerle@gmail.com,2
+timello@linux.vnet.ibm.com,5
+dkl@mozilla.com,41
+arthurpbs@gmail.com,1
+shimono@bug-ja.org,6
+website@bugzilla.bugs,3
+clegnitto@mozilla.com,9
+aanisimov@inbox.ru,1
+glob@glob.com.au,2
+sam@robots.org.uk,3
+bugzilla@veekun.com,1
+dmarshal@yahoo-inc.com,1
+dgl-mozilla@otherwize.co.uk,1
+graeme@chromosphere.co.uk,1
+glob@mozilla.com,20
+bjoern@j3e.de,1
+shadarap@hotmail.com,1
+timello@bugzilla.org,6
+bugzilla@bombcar.com,1
+jochen.wiedmann@gmail.com,1
+com.mozilla@rjbs.manxome.org,1
+gyp@balabit.hu,1
+danw@gnome.org,1
+Alexei.Volkov@softlynx.ru,1
+michaelc@wush.net,1
+chtrom@gmail.com,2
+sgreen+mozilla@redhat.com,13
+emmanuel.seyman@club-internet.fr,1
+koosha.khajeh@gmail.com,18
+hakjer@netinsight.net,1
+mozilla.org@tower-net.de,1
+davidt@yadt.co.uk,1
+mtyson@redhat.com,2
+andershol@gmail.com,1
+hugo.seabrook@gmail.com,3
+tschoening@am-soft.de,3
+sgreen@redhat.com,1
+aleksandr.v.tereschenko@linux.intel.com,2
+bugzilla-mozilla@vitters.nl,1
+thesuckiestemail@yahoo.se,3
+ajschult@verizon.net,10
+bernd_mozilla@gmx.de,108
+vladimir@pobox.com,436
+bzbarsky@mit.edu,1245
+leon.sha@sun.com,33
+brendan@mozilla.org,592
+mark@moxienet.com,44
+preed@mozilla.com,19
+bugmail@sicking.cc,51
+darin@meer.net,31
+gavin.sharp@gmail.com,383
+littlecritter@nasquan.com,1
+cbiesinger@gmx.at,50
+neil.parkwaycc.co.uk@bluebottle.com,1
+mats.palmgren@bredband.net,265
+iann_bugzilla@arlen.demon.co.uk,5
+Dainis_Jonitis@exigengroup.lv,2
+apm@dna.fi,1
+emaijala@kolumbus.fi,8
+smaug@welho.com,13
+uriber@gmail.com,73
+martijn.martijn@gmail.com,80
+gdavis@nsisoftware.com,1
+zackw@panix.com,12
+abwillis1@gmail.com,4
+jst@mozilla.org,173
+igor.bukanov@gmail.com,69
+mrbkap@gmail.com,811
+mozilla@Weilbacher.org,81
+daumling@adobe.com,6
+doronr@gmail.com,8
+longsonr@gmail.com,408
+tor@acm.org,79
+pavlov@pavlov.net,105
+Olli.Pettay@gmail.com,581
+masayuki@d-toybox.com,252
+general@xbl.bugs,11
+matthew@allpeers.com,4
+peterv@propagandism.org,273
+davel@mozilla.com,1
+kherron+mozilla@fmailbox.com,4
+sharparrow1@yahoo.com,92
+benjamin@smedbergs.us,293
+VYV03354@nifty.ne.jp,146
+zweinberg@mozilla.com,62
+surkov@dc.baikal.ru,21
+scootermorris@comcast.net,6
+jhpedemonte@gmail.com,6
+neil@httl.net,227
+alqahira@mindspring.com,1
+mozbugz@karlt.net,106
+sergei_d@fi.tartu.ee,9
+sspeiche@us.ibm.com,10
+allan@beaufour.dk,35
+bryner@brianryner.com,12
+joshmoz@gmail.com,331
+bjarne@runitsoft.com,43
+enndeakin@sympatico.ca,115
+tony@greyfirst.ca,1
+alfredkayser@nl.ibm.com,41
+nrthomas@gmail.com,16
+jdaggett@mozilla.com,108
+ted.mielczarek@gmail.com,102
+alfred.peng@sun.com,21
+mnyromyr@tprac.de,10
+silver@warwickcompsoc.co.uk,6
+shaver@mozilla.org,18
+aaronr@us.ibm.com,38
+ginn.chen@sun.com,196
+ventnor.bugzilla@yahoo.com.au,57
+msterlin@us.ibm.com,38
+marcldl+mozbugs@gmail.com,3
+asqueella@gmail.com,48
+wtchang@redhat.com,3
+adamlock@eircom.net,1
+crowder@fiverocks.com,146
+prefiks@aviary.pl,4
+mmoy@yahoo.com,2
+ganesh.mozilla@gmail.com,1
+mozilla@kaply.com,10
+engel@physics.harvard.edu,4
+jshin1987@gmail.com,4
+jerfa@email.it,3
+Jan.Varga@gmail.com,32
+gautheri@noos.fr,1
+bugzilla@tecnocode.co.uk,1
+mh@glandium.org,1
+mh+mozilla@glandium.org,415
+sayrer@gmail.com,188
+feng.qian@gmail.com,1
+sciguyryan@gmail.com,25
+dzbarsky@gmail.com,57
+boissomag@free.fr,4
+saito@densan.co.jp,3
+kovalchuk77@list.ru,2
+philringnalda@gmail.com,257
+rflint@dslr.net,14
+gaomingcn@gmail.com,11
+jwatt@jwatt.org,146
+cls@seawood.org,8
+mqmq87@web.de,1
+aqualon@aquachan.de,2
+tuukka.tolvanen@gmail.com,10
+jonsmirl@yahoo.com,4
+jlurz24@gmail.com,4
+hwaara@gmail.com,17
+brettw@gmail.com,64
+srini@youos.com,1
+jason_barnabe@fastmail.fm,5
+feng.qian.moz@gmail.com,5
+ehsan.akhgari@gmail.com,167
+chofmann@gmail.com,3
+surkov.alexander@gmail.com,540
+amenzie@us.ibm.com,11
+sciguyryan+bugzilla@gmail.com,19
+ispiked@gmail.com,31
+michael.wu@mozilla.com,34
+bclary@bclary.com,40
+jonsmirl@gmail.com,1
+zeniko@gmail.com,164
+mossop.bugzilla@blueprintit.co.uk,10
+ryanvm@gmail.com,45
+mhammond@skippinet.com.au,40
+gheibi@gmail.com,1
+pkasting@google.com,15
+bugs@bengoodger.com,99
+David.R.Gardiner@gmail.com,2
+wuno@lsvw.de,68
+bugs@ryan-jones.com,6
+mozilla@smarinier.net,1
+mhz@altlinux.org,3
+regis.caspar+bz@gmail.com,11
+nian.liu@sun.com,23
+ak.miller@auckland.ac.nz,4
+giacomo.magnini@portalis.it,1
+marria@gmail.com,2
+mounir.lamouri@gmail.com,214
+jwalden+bmo@mit.edu,263
+m_kato@ga2.so-net.ne.jp,190
+jonas@sicking.cc,200
+bugzilla@mcsmurf.de,12
+bryner@gmail.com,1
+tonnes.mb@gmail.com,2
+jruderman@gmail.com,56
+stefanh@bluebottle.com,6
+jo.hermans@gmail.com,2
+mook.moz+sites.org.mozilla.bugzilla@gmail.com,5
+mozilla@rosenauer.org,32
+mwsteele@gmail.com,4
+taken.spc@gmail.com,21
+bugs.mano@sent.com,45
+awuest@gmail.com,3
+daniel@glazman.org,6
+a-higuti@gray.plala.or.jp,1
+l10n@mozilla.com,59
+sylvain.pasche@gmail.com,22
+Ms2ger@gmail.com,162
+kinetik@flim.org,178
+db48x@yahoo.com,7
+steffen.wilberg@web.de,49
+glennrp@gmail.com,19
+cst@yecc.com,2
+stanshebs@earthlink.net,22
+gerald_leder@gmx.at,1
+gavin@picsel.com,2
+smichaud@pobox.com,234
+niels.leenheer@gmail.com,1
+graememcc_firefox@graeme-online.co.uk,25
+son.le0@gmail.com,1
+ben.bucksch@beonex.com,28
+mozilla@petewarden.com,1
+azakai@mozilla.com,40
+cbarrett@mozilla.com,22
+toshihiro@turbolinux.co.jp,1
+sugar.waffle@gmail.com,3
+tony@ponderer.org,39
+honzab@allpeers.com,33
+alqahira@ardisson.org,3
+mano@mozilla.com,337
+codedread@gmail.com,4
+mozilla@lange.cx,1
+shutdown@flashmail.com,3
+mkmelin+mozilla@iki.fi,141
+ehsan@mozilla.com,698
+igor@mir2.org,279
+netzen@gmail.com,105
+graydon@mozilla.com,62
+ryoqun@gmail.com,4
+asrail@gmail.com,2
+ayg@aryeh.name,76
+Seno.Aiko@gmail.com,2
+mclasen@redhat.com,1
+chris.double@double.co.nz,132
+honzab.moz@firemni.cz,157
+dcamp@mozilla.com,126
+caillon@gmail.com,1
+falk@debian.org,1
+netrolller.3d@gmail.com,2
+trev@gtchat.de,8
+anlan@lange.cx,1
+dao@design-noir.de,31
+sgautherie.bz@free.fr,128
+rmh@aybabtu.com,1
+comrade693+bmo@gmail.com,15
+chris.shoemaker@cox.net,1
+brian.ewins@gmail.com,1
+jmathies@mozilla.com,286
+enndeakin@gmail.com,218
+martynas@openbsd.org,2
+wbardwel@curl.com,1
+bas.schouten@joost.com,1
+oliver_yeoh@hotmail.com,4
+dbaron@dbaron.org,230
+sspeiche@gmail.com,6
+mook.moz+mozbz@gmail.com,13
+evilpies@gmail.com,79
+eshepherd@mozilla.com,4
+guenther@rudersport.de,1
+themystic.ca@gmail.com,1
+chpe@gnome.org,7
+ronny.perinke@gmx.de,3
+general@widget.bugs,1
+dwmw2@infradead.org,1
+tglek@mozilla.com,134
+arno.@no-log.org,4
+samuel@sieb.net,1
+dragtext@e-vertise.com,23
+stuart.morgan@alumni.case.edu,3
+suryaismail@gmail.com,5
+jresig@mozilla.com,4
+philip@zaynar.demon.co.uk,3
+MikeM@RetekSolutions.com,2
+ray@ganymede.org,4
+reg@freebsd.org,2
+bugzilla@standard8.demon.co.uk,4
+domob@daniel-kraft.net,1
+alltigerszhang@gmail.com,1
+vasiliy.potapenko@gmail.com,5
+dwitte@stanford.edu,32
+dholbert@mozilla.com,529
+trev.moz@adblockplus.org,11
+jminta@gmail.com,63
+msintov@macromedia.com,4
+jmuizelaar@mozilla.com,252
+mfenniak-moz@mathieu.fenniak.net,6
+mvl@exedo.nl,1
+sdwilsh@mozilla.com,14
+lilmatt@flock.com,1
+christian.haberstroh@gmail.com,1
+smoehle@comcast.net,1
+mozilla@gaul.org,1
+mcmanus@ducksong.com,192
+edilee@gmail.com,104
+dietrich@mozilla.com,233
+dmose@mozilla.org,43
+marcoos+bmo@marcoos.org,5
+asmith15@learn.senecac.on.ca,2
+nick.kreeger@park.edu,6
+daniel.bainton@gmail.com,1
+prasad@medhas.org,4
+gabrielsjoberg@gmail.com,1
+kairo@kairo.at,28
+jonitis@gmail.com,1
+fantasai.bugs@inkedblade.net,28
+jorendorff@mozilla.com,457
+asac@jwsdot.com,9
+chris@pearce.org.nz,212
+betelgeuse@gentoo.org,1
+robarnold@mozilla.com,4
+bugzilla@standard8.plus.com,180
+edilee@mozilla.com,17
+anemitz@gmail.com,1
+ccooper@deadsquid.com,2
+stransky@redhat.com,17
+web+moz@eschew.org,4
+dwayne@translate.org.za,11
+thunder@mozilla.com,24
+flamingice@sourmilk.net,1
+t.vanklaveren@student.utwente.nl,1
+bugzilla@quiteajolt.com,1
+rich@rd.gen.nz,3
+ause@sun.com,1
+dtownsend@mozilla.com,69
+mstange@themasta.com,173
+david@fastolfe.net,1
+mozbugzilla@velox.ch,3
+aliumalik@gmail.com,1
+cbiesinger@gmail.com,11
+marc@petit-huguenin.org,1
+anodelman@mozilla.com,4
+asmith15@littlesvr.ca,2
+mark.finkle@gmail.com,52
+dao@mozilla.com,487
+morac99-firefox2@yahoo.com,4
+jonathan.protzenko@gmail.com,18
+thep@linux.thai.net,5
+arpad.borsos@googlemail.com,17
+daniel.boelzle@sun.com,1
+kevin.bugzilla@atkinson.dhs.org,1
+matt@songbirdnest.com,2
+wes@page.ca,11
+masmullin@gmail.com,1
+solar@netease.com,2
+twanno@lycos.nl,25
+f.qu@queze.net,25
+blassey@mozilla.com,21
+hendrik.maryns@uni-tuebingen.de,4
+gandalf@aviary.pl,3
+fred.wang@free.fr,59
+shanec@ActiveState.com,1
+florian@mozilla.com,28
+mak77@supereva.it,124
+fta+bugzilla@sofaraway.org,6
+astralstorm@gmail.com,1
+johnath@mozilla.com,72
+beltzner@mozilla.com,52
+jfwfreo@tpgi.com.au,1
+armin76@gentoo.org,9
+manish@flock.com,10
+lw@mozilla.com,142
+ispence@gmail.com,19
+rubys@intertwingly.net,1
+shailen.n.jain@gmail.com,21
+philip.taylor@cl.cam.ac.uk,2
+anant@kix.in,1
+valastiak@mozilla.sk,8
+hk9565@gmail.com,5
+frnchfrgg-mozbugs@altern.org,14
+david@luyer.net,2
+bholley@mozilla.com,8
+marco.zehe@googlemail.com,81
+swsnyder@insightbb.com,1
+ynvich@gmail.com,4
+lolkaantimat@gmail.com,3
+ldx@users.sourceforge.net,2
+dmandelin@mozilla.com,269
+vamposdecampos@gmail.com,2
+tester@tester.ca,1
+Techrazy.Yang@gmail.com,10
+skumar@sta.samsung.com,2
+alfredkayser@gmail.com,29
+bernard.alleysson@gmail.com,1
+spamtest@littlesvr.ca,1
+bsterne@mozilla.com,16
+masa141421356@gmail.com,10
+tim_tim2000@mail.ru,1
+caillon@redhat.com,11
+karunasagark@gmail.com,3
+arenevier@fdn.fr,9
+wesongathedeveloper@yahoo.com,31
+nossralf@gmail.com,1
+Pidgeot18@gmail.com,16
+lholst@students.cs.uu.nl,1
+hskupin@gmail.com,17
+hb@calen.de,1
+leon.sha@gmail.com,1
+reg@openpave.org,2
+jim@mozilla.com,79
+craig.topper@gmail.com,16
+kayjay@poczta.fm,1
+hasse@jasajudeju.se,3
+bhearsum@mozilla.com,9
+markcapella@twcny.rr.com,106
+michal@allpeers.com,24
+laurent@xulfr.org,8
+bfrisch@gmail.com,2
+gyuyoung.kim@samsung.com,1
+sethbugs@gmail.com,1
+jet@adobe.com,3
+toddw@ActiveState.com,4
+dev@schonfeld.org,13
+gfleischer+bugzilla@gmail.com,1
+colin@theblakes.com,1
+fwsmail35@aol.com,1
+paul.rouget@gmail.com,2
+doug.turner@gmail.com,208
+mak77@bonardo.net,296
+benjamin@python.org,28
+wasti.redl@gmx.net,1
+bengt.erik.soderstrom@telia.com,1
+gzjjgod@gmail.com,1
+WCWedin@gmail.com,1
+continuation@gmail.com,140
+mpgritti@gmail.com,3
+darkweaver@gmail.com,1
+tyler@christianlink.us,9
+sdwilsh@forerunnerdesigns.com,48
+danielgutson@gmail.com,1
+michael.monreal@gmx.net,6
+avarma@mozilla.com,4
+jdarmochwal@gmx.de,5
+simon@sxw.org.uk,3
+fittysix@gmail.com,3
+bill@wg9s.com,11
+kliu.bugzilla.3c9f@mail.kailiu.com,15
+cdleary@mozilla.com,101
+jfkthame@gmail.com,354
+wesley-johnston@uiowa.edu,2
+hugues.fournier@gmail.com,2
+kliu@mozilla.kailiu.com,8
+pbiggar@mozilla.com,45
+joduinn@mozilla.com,5
+lukasblakk@gmail.com,1
+mconnor@mozilla.com,52
+bruce@hoult.org,3
+vmenezes@mozilla.com,2
+bobbyholley@stanford.edu,6
+wolfe@lobo.us,7
+bugzilla@luisdelarosa.com,1
+harthur@mozilla.com,3
+mail@philipp-wagner.com,28
+brade@comcast.net,2
+tellrob@gmail.com,48
+ebutler@mozilla.com,4
+bugmail@asutherland.org,57
+mcs@pearlcrescent.com,1
+dev-null@hotmail.co.jp,8
+nth10sd@gmail.com,6
+armenzg@mozilla.com,2
+kdekorte@yahoo.com,1
+johnsdaniels@yahoo.com,2
+bolterbugz@gmail.com,79
+jamesbunton@fastmail.fm,1
+gal@uci.edu,614
+ventnor.bugzilla@gmail.com,40
+bnewman@mozilla.com,21
+danderson@mozilla.com,79
+brian.lu@sun.com,35
+eschew@gmail.com,2
+frnchfrgg@free.fr,1
+hectorchu@gmail.com,2
+ul.mcamafia@linkitup.de,32
+simon.bugzilla@googlemail.com,1
+addons@glaxstar.com,3
+denistn@gmail.com,1
+mike.kaplinskiy@gmail.com,2
+poincare@ikezoe.net,6
+wladow@gmail.com,15
+sylvain.spinelli@free.fr,1
+eitan@ascender.com,3
+chrisccoulson@ubuntu.com,18
+steve@grommit.com,2
+keith@keithschwarz.com,4
+ctalbert@mozilla.com,7
+bholley@cs.stanford.edu,5
+jdschuh@us.ibm.com,1
+crazy-daniel@gmx.de,6
+gozer@mozillamessaging.com,17
+dvander@alliedmods.net,343
+bugmail@millibyte.net,6
+nelson@bolyard.me,2
+tokoe@kde.org,5
+sid1337@gmail.com,10
+david+mozilla@triendl.name,1
+siraj.razick@collabora.co.uk,1
+tnikkel@gmail.com,177
+Seno.Aiko@live.com,3
+pvh@pvh.ca,1
+philip.chee@gmail.com,4
+arno@renevier.net,30
+fred.jen@web.de,3
+cliss@adobe.com,3
+jmaher@mozilla.com,32
+mininet@wanadoo.fr,1
+rsx11m.pub@gmail.com,18
+rob@comodo.com,2
+cbartley@mozilla.com,9
+paolo.02.prg@amadzone.org,7
+chris.bugzilla@gmail.com,1
+matspal@gmail.com,240
+sgreenlay@mozilla.com,17
+hsivonen@iki.fi,291
+bugs@pettay.fi,88
+bugmail@lassey.us,40
+andrew@ishiboo.com,18
+rsesek@bluestatic.org,1
+birtles@gmail.com,76
+bugzilla@jesperkristensen.dk,3
+bugzillaFred@gmail.com,9
+dveditz@mozilla.com,10
+jduell.mcbugs@gmail.com,103
+hessamms@gmail.com,2
+me@kylehuey.com,22
+johnflux@gmail.com,1
+bobbyholley+bmo@gmail.com,113
+steffen.imhof@googlemail.com,12
+tobias.hunger@gmail.com,8
+highmind63@gmail.com,37
+nnethercote@mozilla.com,94
+koen@emweb.be,1
+mook@songbirdnest.com,1
+jamesboston@gmail.com,1
+zeev.tarantov@gmail.com,2
+justin.lebar+bug@gmail.com,250
+mbrubeck@mozilla.com,20
+tdyas@zecador.org,2
+Jacob.Bramley@arm.com,13
+oceanl@vt.edu,1
+tomeu@sugarlabs.org,1
+jeremyhu@macports.org,14
+hkygrts@yahoo.com,1
+lusian@gmail.com,43
+florian@queze.net,88
+aki@mozilla.com,1
+bsmith@mozilla.com,41
+jones.chris.g@gmail.com,322
+ikezoe@clear-code.com,16
+mars.martian+bugmail@gmail.com,10
+jmorkel@gmail.com,4
+tom.dyas@gmail.com,1
+niederstrasser@gmail.com,8
+wiking@maeth.com,1
+agl@chromium.org,2
+nthomas@mozilla.com,4
+pjemen@gmail.com,6
+alessandro.cogliati@gmail.com,1
+dion.sole@gmail.com,6
+caywood@gmail.com,1
+eitan@monotonous.org,84
+trev.saunders@gmail.com,60
+catlee@mozilla.com,5
+kbrosnan@gmail.com,4
+andrewshilliday@gmail.com,2
+abhishekbh@gmail.com,2
+ds@schleef.org,1
+sstamm@mozilla.com,17
+felipc@gmail.com,76
+dennis@ausil.us,1
+tyler.downer@gmail.com,10
+blassey.bugs@lassey.us,110
+gwagner@mozilla.com,2
+jacek@codeweavers.com,76
+jseward@acm.org,27
+mleibovic@mozilla.com,3
+jgriffin@mozilla.com,17
+swsnyder@snydernet.net,5
+matjk7@gmail.com,34
+wraithlike@gmail.com,1
+liucougar@gmail.com,5
+sphink@gmail.com,89
+mmovassate@mozilla.com,1
+t.matsuu@gmail.com,25
+josh@joshmatthews.net,167
+froystig@cs.stanford.edu,3
+michal.novotny@gmail.com,47
+msullivan@mozilla.com,1
+navinjlal@gmail.com,2
+marti@juffo.org,1
+dwitte@gmail.com,87
+alex.mozilla@gmail.com,1
+schranz.m@gmail.com,8
+mmcnicklebugs@googlemail.com,5
+atulagrwl@gmail.com,37
+mitch_1_2@live.com.au,6
+cam@mcc.id.au,83
+khuey@kylehuey.com,184
+conrad@metadecks.org,1
+alexp@mozilla.com,14
+daveryeo@telus.net,6
+bhsieh@mozilla.com,17
+geoff@darktrojan.net,12
+zelgadis@mailinator.com,2
+mozilla-bugzilla@outofhanwell.com,1
+philbaseless-firefox@yahoo.com,11
+nicolas.justin@opentrust.com,1
+jhorak@redhat.com,12
+djeter@ripleycable.net,3
+ashie@clear-code.com,3
+ayakawa.m@gmail.com,2
+jimb@mozilla.com,76
+sergeyreym@gmail.com,10
+adw@mozilla.com,42
+steveharper60@hotmail.com,2
+mozbug@ml.breakpoint.cc,2
+anarchy@gentoo.org,14
+glen.beasley@sun.com,1
+jaakko.kiviluoto@digia.com,1
+leofigueres@yahoo.com,12
+elmar.ludwig@uos.de,2
+bartml@wp.pl,2
+bjacob@mozilla.com,347
+async.processingjs@yahoo.com,18
+mitchell.field@live.com.au,12
+karlt@mozbugz.karlt.net,123
+bmcbride@mozilla.com,28
+nirbheek.chauhan@gmail.com,1
+glennrp+bmo@gmail.com,20
+julieni@microsoft.com,1
+philipp@redfish-solutions.com,1
+mozbugz@dougt.org,17
+redicke@learn.senecac.on.ca,1
+bill.lancashire@o2.co.uk,1
+dougt@dougt.org,18
+lordpixel@mac.com,3
+bringbackbsd@hotmail.com,2
+ekrem.tomur@gmail.com,1
+mwu@mozilla.com,54
+chithraprabhap@gmail.com,1
+moz_poro@porotal.org,1
+edwsmith@adobe.com,9
+mjarvin@gmail.com,6
+turuoka@colorlessplanet.org,1
+philippe.deryck@cs.kuleuven.be,1
+sagarwal@mozilla.com,39
+arisu@styl.us.to,2
+MaierMan@web.de,7
+giles@xiph.org,5
+bhackett1024@gmail.com,273
+matthew.gertner@gmail.com,1
+unghost@mozilla-russia.org,9
+j@oil21.org,1
+mkristoffersen@mozilla.com,20
+pwalton@mozilla.com,52
+bluepenguin@gmail.com,1
+dherman@mozilla.com,20
+cleary@mozilla.com,2
+hurley@mozilla.com,11
+nfroyd@mozilla.com,93
+jhford@mozilla.com,9
+philipp@weitershausen.de,68
+martin@NetBSD.ORG,2
+wagnerg@uci.edu,1
+chris@mips.com,1
+gary@rumblingedge.com,9
+mozilla-bugs@micahscomputing.com,2
+khadgaray@gmail.com,1
+starkov.egor@gmail.com,2
+krangam@gmail.com,1
+bugzilla-mozilla@vendor.thewrittenword.com,1
+respindola@mozilla.com,153
+bienvenu@nventure.com,276
+b56girard@gmail.com,26
+crowderbt@gmail.com,12
+rwinchel@adobe.com,1
+timeless@gmail.com,1
+bugzilla.mozilla.org@solsort.dk,2
+mwoodrow@mozilla.com,1
+21@vingtetun.org,32
+cliff@snipe444.org,1
+andreas.wictor@xcerion.com,1
+mozilla+ben@benjamn.com,1
+michaelkohler@live.com,20
+lsumar@mozilla.com,3
+yong.wu@intel.com,1
+felipe.sanches@gmail.com,3
+byronm@stanford.edu,3
+adrake@mozilla.com,45
+marcia@mozilla.org,2
+webapps@stechz.com,5
+harry.li@pagefreedom.org,1
+kou@clear-code.com,1
+tterribe@vt.edu,36
+wfernandom2004@gmail.com,12
+ewong@pw-wspx.org,15
+ricow@chromium.org,1
+apierce@mozilla.com,7
+jik@kamens.brookline.ma.us,7
+corentin.chary@gmail.com,1
+paul.biggar@gmail.com,4
+jchen@mozilla.com,4
+sstangl@mozilla.com,27
+ilpo.ruotsalainen@movial.com,1
+legion@altlinux.org,2
+reportbase@gmail.com,1
+emanuel.hoogeveen@gmail.com,3
+jdemooij@gmail.com,1
+hanno@hboeck.de,1
+jandemooij@gmail.com,63
+weppos@weppos.net,12
+pirkka.danger.karenlampi@gmail.com,1
+tanya.meshkova@gmail.com,19
+mattm@chromium.org,1
+luke@mozilla.com,179
+charly.molter@gmail.com,3
+bokeefe@alum.wpi.edu,4
+matt.woodrow+bugzilla@gmail.com,65
+hwti@hotmail.com,1
+drew@zitnay.com,1
+sindrebugzilla@gmail.com,7
+gribozavr@gmail.com,1
+ajones@mozilla.com,18
+iann_bugzilla@blueyonder.co.uk,11
+newstop@gmail.com,2
+jonkhemming@gmail.com,1
+juca@members.fsf.org,4
+julian.reschke@gmx.de,28
+bmo@edmorley.co.uk,64
+roger.wang@intel.com,1
+Simetrical+ff@gmail.com,1
+jimnchen+bmo@gmail.com,1
+jorge@mozilla.com,4
+alangpierce@gmail.com,1
+steven_tseng15@hotmail.com,1
+maglione.k@gmail.com,2
+adam.michel@gmail.com,1
+lultimouomo@gmail.com,1
+ginn.chen@oracle.com,55
+jagw40k@free.fr,2
+wjohnston@mozilla.com,10
+mihai.sucan@gmail.com,220
+mar.castelluccio@studenti.unina.it,44
+Sevenspade@gmail.com,1
+siarhei.siamashka@gmail.com,4
+cedric.vincent@st.com,1
+willyaranda@mozilla-hispano.org,7
+fherrera@onirica.com,10
+amarchesini@mozilla.com,28
+dsicore@mozilla.com,1
+ben@stechz.com,24
+bugs@linkmauve.fr,1
+redhatter@gentoo.org,1
+mozillatomwuttke@gmail.com,1
+chrislord.net@gmail.com,29
+stefanh@inbox.com,6
+adam@sigterm.info,4
+tim.taubert@gmx.de,117
+eric.hennigan@uci.edu,1
+kaze@kompozer.net,22
+kazuki.ohta@gmail.com,1
+annaopensource@gmail.com,1
+mounir@lamouri.fr,98
+dkeeler@mozilla.com,23
+matti@mversen.de,1
+plaes@plaes.org,1
+bpeterson@mozilla.com,52
+kevin.gadd@gmail.com,5
+jdicarlo@mozilla.com,5
+ajohnson@redneon.com,2
+caolanm@redhat.com,1
+tete009+bugzilla@gmail.com,2
+hiikezoe@mozilla-japan.org,38
+seanedunn@yahoo.com,19
+46b@gulli.com,3
+emanuele.costa@gmail.com,3
+landry@openbsd.org,63
+ludovic@mozillamessaging.com,6
+nikosverschore@gmail.com,3
+jag-mozilla@jag.dreamhost.com,2
+rjesup@jesup.org,81
+and_j_rob@yahoo.com,1
+stejohns@adobe.com,1
+jpr@mozilla.com,2
+matthew@trebex.net,1
+sruff@nvidia.com,1
+klausernst2@gmx.de,1
+gbrown@mozilla.com,11
+ojab@ojab.ru,4
+rjesup@wgate.com,3
+christoph.diehl@xophdware.com,1
+mbanner@mozilla.com,63
+mnemo@minimum.se,1
+marky@activestate.com,2
+sjohnson@mozilla.com,27
+fabrice@mozilla.com,63
+dsherk@mozilla.com,27
+moz-ian@perix.co.uk,4
+florian.haenel@heeen.de,6
+nchen@mozilla.com,7
+sgong@mozilla.com,1
+wchen@mozilla.com,7
+dalekim1@illinois.edu,1
+dularylaurent@gmail.com,3
+Vincent.Lamotte@ensimag.imag.fr,3
+yoan.teboul@ensimag.imag.fr,2
+kliu@code.kliu.org,4
+jothan@gmail.com,8
+patrick@mozilla-enigmail.org,3
+rpearl@mozilla.com,7
+kwwaters@gmail.com,1
+mmahan@nvidia.com,1
+malex@cs.utexas.edu,1
+ilmari.heikkinen@gmail.com,6
+gpascutto@mozilla.com,30
+rodd.zurcher@motorola.com,1
+cazacu.daniell@yahoo.com,1
+hage.jonathan@gmail.com,6
+tanvi@mozilla.com,6
+past@mozilla.com,124
+nsm.nikhil@gmail.com,8
+wade.cameron@gmail.com,1
+nossralf+bugzilla@gmail.com,2
+szu.han.chang@gmail.com,3
+jezreel@gmail.com,11
+hv1989@gmail.com,49
+jdemooij@mozilla.com,62
+igor.bazarny@gmail.com,4
+imelven@mozilla.com,2
+onlinevishnu@gmail.com,1
+mrosenberg@mozilla.com,24
+tipecaml@gmail.com,1
+nanodevwiz@yahoo.com,1
+terrence@mozilla.com,58
+n.nethercote@gmail.com,32
+nospam.kotarou.dono@gmail.com,2
+tabraldes@mozilla.com,19
+kwierso@gmail.com,6
+choudharypranay@live.com,2
+adam@adamrosenfield.com,2
+edsrzf@gmail.com,2
+nigelbabu@gmail.com,1
+gps@mozilla.com,64
+ajax16384@gmail.com,1
+nfitzgerald@mozilla.com,10
+malek@lcde.net,1
+sandervv@gmail.com,2
+shawn@mozilla.com,3
+ajuma@mozilla.com,19
+Ainsley.Chong@gmail.com,1
+matt.woodrow@gmail.com,178
+h.rayflood@gmail.com,3
+mmarcottulio@gmail.com,2
+edgarf2002@gmail.com,3
+sreenidimn@gmail.com,1
+jwein@mozilla.com,34
+gkrizsanits@mozilla.com,18
+wlachance@mozilla.com,1
+yghannam@gmail.com,1
+sjhworkman@gmail.com,5
+daniloshiga@gmail.com,1
+dflanagan@mozilla.com,1
+bmoss@mozilla.com,1
+shu@rfrn.org,7
+hobinjk@gmail.com,1
+terrence@trainedmonkeystudios.org,5
+martius@martiusweb.net,1
+acelists@atlas.sk,50
+andrescordova87@gmail.com,1
+l5m5.dev@gmail.com,1
+acrichton@mozilla.com,9
+sworkman@mozilla.com,5
+jh.dev0@gmail.com,4
+npierron@mozilla.com,5
+innomotive@gmail.com,1
+jitenmt@gmail.com,4
+cdiehl@mozilla.com,3
+nsilva@mozilla.com,15
+jschoenick@mozilla.com,49
+kgupta@mozilla.com,1
+unusualtears@gmail.com,15
+dbienvenu@mozilla.com,37
+t_arceri@yahoo.com.au,1
+oussamabadr@gmail.com,4
+tcole@mozilla.com,3
+aditya@adityabhatt.org,1
+ffung@mozilla.com,15
+jon@jbuckley.ca,3
+yati.sagade@gmail.com,1
+giles@mozilla.com,25
+kennyluck@csail.mit.edu,4
+jkoleszar@google.com,1
+mujtabaar@gmail.com,1
+blackhole@herhut.de,1
+wolfgang@germund.name,1
+tlee@mozilla.com,9
+cryptooctoploid@gmail.com,1
+hfiguiere@teaser.fr,1
+nicolas.b.pierron@mozilla.com,80
+abhishekkumarsingh.cse@gmail.com,2
+antti@haapala.name,1
+rreitmai@adobe.com,1
+rpmdisguise-otros@yahoo.es,2
+khaledhosny@eglug.org,1
+nattofriends@gmail.com,1
+ttaubert@mozilla.com,69
+irving@mozilla.com,14
+rldhont@gmail.com,1
+panagiotis.koutsourakis@gmail.com,1
+reuben.bmo@gmail.com,4
+hub@mozilla.com,56
+sriram@mozilla.com,2
+andrew.quartey@gmail.com,39
+chuku_regs@yahoo.com,3
+daim.project@free.fr,2
+nmatsakis@mozilla.com,3
+tobbi.bugs@googlemail.com,8
+reuben.morais@gmail.com,5
+jet@mozilla.com,4
+dteller@mozilla.com,23
+jan.bambach@hotmail.de,1
+jigneshhk1992@gmail.com,23
+anant@mozilla.com,20
+dholbert+bmo@gmail.com,2
+thomas@prip.nu,7
+vbs85@gmx.de,1
+torisugari@gmail.com,10
+ku.b@gmx.de,1
+mi+mozilla@aldan.algebra.com,1
+choller@mozilla.com,22
+kchen@mozilla.com,33
+kyle@nonpolynomial.com,34
+fayearthur@gmail.com,17
+bugzilla@sherk.me,22
+christopher.leary@cornell.edu,6
+kdevel@vogtner.de,3
+jstraus@mozilla.com,7
+michaelkohler@linux.com,2
+greg.karz@gmail.com,1
+plop2plopplop@gmail.com,1
+prp.1111@gmail.com,4
+echou@mozilla.com,50
+santiago.gimeno@gmail.com,3
+k.kotlenga@sims.pl,1
+askalski@mozilla.com,3
+ananuti@gmail.com,17
+ferjmoreno@gmail.com,31
+rogerio.rag@gmail.com,2
+tschneidereit+bmo@gmail.com,8
+slee@mozilla.com,14
+nmiell@gmail.com,1
+fabien.cellier@gmail.com,3
+chris@chrisdecairos.ca,6
+cpearce@mozilla.com,43
+fu@mips.com,1
+david.c.seifried@gmail.com,1
+odvarko@gmail.com,2
+poirot.alex@gmail.com,4
+docwhat@gerf.org,1
+taras.mozilla@glek.net,1
+diogo.gmt@gmail.com,4
+sowmya.ravidas@gmail.com,1
+ncameron@mozilla.com,33
+savita.seetaraman5@gmail.com,1
+mhagger@alum.mit.edu,1
+mozstuff@mikek.dk,1
+thinker@codemud.net,1
+gwright@mozilla.com,12
+felix.the.cheshire.cat@gmail.com,2
+tack-bugzilla@urandom.ca,1
+murali.sr92@yahoo.com,3
+vchang@mozilla.com,4
+orangedaylily@gmail.com,3
+scrapmachines@gmail.com,22
+malenesok007@yahoo.com,1
+corey@kb1pkl.me,1
+ph@phhart.de,1
+ladamski@mozilla.com,1
+vicamo@gmail.com,1
+bsurender@mozilla.com,4
+joey.blacksmith@gmail.com,3
+josea.olivera@gmail.com,18
+eflores@mozilla.com,14
+daniellevin2607@gmail.com,1
+bmo2010@ilias.ca,1
+yhuang@mozilla.com,15
+bugmail.mozilla@staktrace.com,13
+joseph.k.olivas@intel.com,3
+cyu@mozilla.com,8
+passfree@gmail.com,1
+ben@krellian.com,1
+vyang@mozilla.com,39
+otaylor@redhat.com,1
+richard@vdberg.org,1
+francoiswang@gmail.com,1
+ekw1@yahoo.com,1
+pyalot@gmail.com,1
+jcoppeard@mozilla.com,15
+kvijayan@mozilla.com,27
+mreavy@mozilla.com,1
+charles.wh.chan@gmail.com,6
+leonard.camacho@gmail.com,6
+jake.holzinger@gmail.com,1
+pallavikumarijha@gmail.com,1
+nerdcorerising@gmail.com,1
+prabu@ti.com,2
+matias.juntunen@gmail.com,3
+aem_koenraadt@hotmail.com,1
+pengkang2011@u.northwestern.edu,1
+pallanikumaran@gmail.com,3
+maxli@maxli.ca,18
+michaljev@o2.pl,3
+PraZuBeR@gmail.com,4
+junky.argonaut@gmail.com,5
+nickyekaiqi@gmail.com,2
+pookveeraya@gmail.com,3
+dhylands@mozilla.com,9
+alexandr.jenaldiev@gmail.com,1
+pcheng@gmx.com,1
+cpeterson@mozilla.com,10
+ethanhugg@gmail.com,35
+xph9753@yahoo.de,2
+frsela@tid.es,2
+bdahl@mozilla.com,10
+david.humphrey@senecac.on.ca,4
+mconley@mozilla.com,186
+showdown345@gmail.com,1
+alice.lieutier@gmail.com,1
+twilliampowell@gmail.com,1
+georg.fritzsche@googlemail.com,14
+valentin.gosu@gmail.com,6
+pierre@brin-de-toile.fr,1
+david.humphrey@senecacollege.ca,1
+arnaud.bienner@gmail.com,2
+mjt+mozilla@tls.msk.ru,1
+jaws@mozilla.com,44
+bnicholson@mozilla.com,2
+dclarke@mozilla.com,2
+dale@arandomurl.com,15
+efaust@mozilla.com,21
+saurabhanandiit@gmail.com,19
+mozilla@christophkerschbaumer.com,3
+emannion@gmail.com,4
+dbolter@mozilla.com,6
+xel1045@gmail.com,1
+vinceyang15@gmail.com,5
+rpearl@endofunctor.org,1
+marshall@mozilla.com,7
+dev.akhawe@gmail.com,1
+jhammel@mozilla.com,2
+mnedeleg@yahoo.fr,1
+kshriram18@gmail.com,1
+stephen.moehle@gmail.com,2
+adbugz@mailinator.com,1
+bellot.zoe@gmail.com,1
+john@nextraweb.com,1
+martenschilstra@gmail.com,1
+allstars.chh@mozilla.com,25
+ewong3@gmail.com,7
+amckay@mozilla.com,1
+ianb@mozilla.com,2
+mmoutenot@mozilla.com,2
+vliu@mozilla.com,3
+dev.akhawe+mozilla@gmail.com,5
+Nomis101@web.de,18
+william@intaglio.org.uk,1
+atte.kemppila@iki.fi,2
+komh@chollian.net,3
+gyeh@mozilla.com,25
+ebassi@mozilla.com,5
+ekr@rtfm.com,14
+mnoorenberghe+bmo@mozilla.com,17
+mgoodwin@mozilla.com,2
+alessandro.d@gmail.com,1
+clian@mozilla.com,33
+cib123@googlemail.com,1
+mohitsinha251@gmail.com,2
+tal.aloni.il@gmail.com,2
+ddahl@mozilla.com,52
+felix_moeller@gmx.net,1
+amac@tid.es,2
+foudil.newbie+bugzilla.mozilla.org@gmail.com,5
+SeanDer13@gmail.com,1
+andy@benton.eu.com,1
+mozilla@davidbienvenu.org,1
+snandaku@cisco.com,4
+acperez@tid.es,1
+iliu@mozilla.com,1
+jbeich@tormail.org,36
+laden@csclub.uwaterloo.ca,4
+etienne@segonzac.info,4
+rcatolino@mozilla.com,1
+zaichenkov@gmail.com,1
+wnayes@gmail.com,1
+ndesaulniers@mozilla.com,2
+efaustbmo@gmail.com,3
+ptheriault@mozilla.com,1
+isaac.aggrey@gmail.com,8
+joejoevictor@gmail.com,3
+alex@crichton.co,4
+philames@google.com,1
+kmm537@gmail.com,2
+abhishekp.bugzilla@gmail.com,11
+tschneidereit@gmail.com,10
+ravicat2013@gmail.com,3
+martin.vogt@itwm.fraunhofer.de,1
+mozillabugs@lindenbergsoftware.com,2
+mchen@mozilla.com,2
+thaddee.tyl@gmail.com,10
+timdream+bugs@gmail.com,1
+shu@mozilla.com,6
+pwang@mozilla.com,5
+thomas@thomasy.tw,3
+evold@mozilla.com,1
+mfowler@mozilla.com,1
+six.dsn@gmail.com,1
+schien@mozilla.com,1
+jkitch.bug@gmail.com,6
+tdz@users.sourceforge.net,1
+anthony@ricaud.me,1
+czchen@gmail.com,1
+paolo.mozmail@amadzone.org,19
+cviecco@mozilla.com,2
+saneyuki.s.snyk@gmail.com,22
+dmt.alexandre@gmail.com,1
+seth@mozilla.com,3
+jsmith@mozilla.com,6
+tomas.dainovec@gmail.com,1
+marioalv.mozilla@gmail.com,22
+dchan+bugzilla@mozilla.com,4
+bas@basschouten.com,7
+mcjimenez@gfi.es,1
+nical.bugzilla@gmail.com,3
+foudil.newbie+bmo@gmail.com,1
+jparsons@mozilla.com,2
+maligree@gmail.com,2
+ctai@mozilla.com,4
+edransch.contact@gmail.com,3
+chulee@mozilla.com,2
+gsvelto@mozilla.com,1
+adam@nostrum.com,10
+ehung@mozilla.com,1
+ffhaddad@ucsd.edu,1
+zack.carter@gmail.com,1
+atsai@mozilla.com,1
+swenruzicka@gmail.com,1
+btm@tech.email.ne.jp,1
+rmkn85@gmail.com,2
+mhammond@mozilla.com,38
+folecr@gmail.com,1
+s@rednaks.tn,1
+singerb.dev@gmail.com,4
+olivier.pis.langlois@transport.alstom.com,1
+irtmail-bugzilla@yahoo.in,3
+abrjpt@gmail.com,1
+haog@andrew.cmu.edu,1
+mcepl@redhat.com,1
+mmc@mozilla.com,1
+echen@mozilla.com,3
+tobias.netzel@googlemail.com,3
+rwood@mozilla.com,4
+dave.hunt@gmail.com,2
+psiddh@gmail.com,1
+jh@junetz.de,4
+amod.narvekar@gmail.com,2
+steve@ssinger.info,1
+catalin.usurelu5@gmail.com,1
+jlmendezbonini@gmail.com,2
+ted@mielczarek.org,1
+cabanier@adobe.com,2
+catalinn.iordache@gmail.com,4
+paul@mozilla.com,85
+felash@gmail.com,2
+joe@retrovirus.com,35
+philippuryear@gmail.com,1
+gidsgoldberg@gmail.com,1
+annie.sullivan@gmail.com,64
+mahowi@gmx.net,1
+mossop@blueprintit.co.uk,2
+jonathan_haas@web.de,2
+steven@silverorange.com,1
+beng@google.com,1
+swon@mozilla.com,14
+toadking@lueshi.com,1
+changdong.cui@sun.com,1
+faaborg+bugzilla@gmail.com,1
+spanish@evangelism.bugs,1
+rhelmer@mozilla.com,7
+cst@andrew.cmu.edu,1
+looney.liz@gmail.com,1
+mozilla@gozer.org,1
+justin-bugzilla@dolske.net,2
+marek.stepien@gmail.com,2
+kevin@kmgerich.com,16
+ventnors_dogs234@yahoo.com.au,1
+jgoldman@radiantcore.com,29
+toniher@softcatala.org,1
+mglenn@radiantcore.com,1
+pablo@fliagreco.com.ar,1
+joelnackman@gmail.com,1
+ryan@ryanflint.com,12
+kohei.yoshino.bugs@gmail.com,3
+mtschrep@gmail.com,1
+bugzilla@design-noir.de,5
+dsledz.bugs@gmail.com,1
+redux@splintered.co.uk,2
+petea@jhu.edu,2
+bugzilla@chrispederick.com,3
+roula@reelnewmedia.com,1
+boullet.marc@wanadoo.fr,2
+jaap@haitsma.org,1
+aeruder@ksu.edu,1
+gagiorgio@yahoo.com,1
+freitaka@blarg.net,1
+rjonna@gmail.com,2
+hubert.gajewski@gmail.com,1
+richwklein@mchsi.com,1
+mimecuvalo@gmail.com,1
+b_peterson@yahoo.com,1
+varun21@gmail.com,2
+kakadu+bugzilla@gmail.com,1
+adamsplugins@gmail.com,1
+cfinke@gmail.com,2
+jacksmernov@yahoo.com,1
+goodwill.mozilla.bugzilla@webhippo.org,1
+andrey@gromyko.name,1
+onemen.one@gmail.com,9
+tfullhart@mozilla.com,3
+basic@mozdev.org,1
+p.franc@gmail.com,1
+cyen@mozilla.com,20
+tbertels@gmail.com,2
+hidenosuke@hidenosuke.org,2
+Jia-Qin.Shi@Sun.COM,1
+bugzilla@babylonsounds.com,14
+andres@appcoast.com,33
+ahaas@airmail.net,1
+villepohjanheimo+bugzilla@fastmail.fm,1
+bugs@jasnapaka.com,1
+faaborg@mozilla.com,30
+christineyen+bugs@gmail.com,4
+dave.lin@sun.com,1
+samuel.sidler@gmail.com,1
+w.woods@optusnet.com.au,3
+roytam@gmail.com,1
+benoit.leseul@gmail.com,1
+maxf@magma.ca,1
+polvi@mozilla.com,1
+bugzilla@n321.com,1
+sikon@lucidfox.org,2
+shift.themes@gmail.com,1
+tjduavis@gmail.com,1
+xtc4uall@gmail.com,1
+will.guaraldi@pculture.org,3
+longfocus@gmail.com,1
+tnarik@gmail.com,1
+erwan@flock.com,1
+XerBlade@gmail.com,1
+mcdavis941.bugs@gmail.com,6
+moz-bugs@maltekraus.de,1
+yuoo2k@gmail.com,2
+john.p.baker@bristol.ac.uk,3
+pascalc@gmail.com,4
+stephen@noved.org,12
+mredivo@flock.com,3
+michel.gutierrez@gmail.com,1
+legege@legege.com,1
+tbertels+bugzilla@gmail.com,3
+toddsf@gmail.com,1
+jacob@87k.net,1
+sevenfurnace@gmail.com,2
+jimmac@gmail.com,2
+bugs@krickelkrackel.de,1
+klaas1988@gmail.com,2
+alice0775@yahoo.co.jp,5
+yehudab@gmail.com,1
+bugzilla@game-point.net,2
+ifette@google.com,1
+wagner.sim88@web.de,1
+stas@mozilla.com,1
+supernova00@gmail.com,12
+parasytic@gmail.com,1
+suso.baleato@xunta.es,1
+piro@p.club.ne.jp,3
+roberto.estrada@yahoo.es,1
+william.jon.mccann@gmail.com,1
+hubert@hubertgajewski.com,1
+crusader@dc3.ca,1
+pardal@gmx.de,5
+jason@alioth.us,1
+morac99-firefox@yahoo.com,1
+jmgregory@gmail.com,1
+leftturnsolutions@yahoo.com,1
+jbecerra@mozilla.com,2
+gabri.best@gmail.com,2
+jboriss@mozilla.com,4
+bruno@flock.com,1
+ami.schieber@trusteer.com,1
+mz@scntt.de,2
+qheaden@phaseshiftsoftware.com,1
+mnoorenberghe@mozilla.com,1
+rockmfr@gmail.com,1
+bwinton@latte.ca,65
+buchner.johannes@gmx.at,1
+bowserj@unbc.ca,1
+mozilla.bugs@alyoung.com,14
+jford@mozilla.com,1
+fyan@mozilla.com,4
+grddev@gmail.com,1
+chlee@mozilla.com,2
+a.topal@redronin.de,1
+markus.magnuson@gmail.com,5
+tom.gl@free.fr,1
+Cork@Tele2.se,1
+shorlander@mozilla.com,30
+oyljerry@hotmail.com,1
+mick@mickweiss.com,1
+greg.mosher@avg.com,1
+tymerkaev@gmail.com,7
+jviereck@mozilla.com,17
+lenniger@yahoo.com,2
+james-p@moving-picture.com,1
+francesco.lodolo@gmail.com,1
+skunk@iSKUNK.ORG,1
+aza@mozilla.com,27
+raymond@appcoast.com,176
+mratcliffe@mozilla.com,79
+soapyhamhocks@gmail.com,12
+mitcho@mitcho.com,46
+zandr@mozilla.com,1
+ian@iangilman.com,26
+extension.compatibility@firefox.bugs,1
+michael.monreal+moz@gmail.com,1
+smartell@mozilla.com,1
+kdangoor@mozilla.com,3
+szo@ies.hu,1
+mgway12@gmail.com,1
+at.light@live.com.au,2
+debloper@gmail.com,4
+martincerdeira@gmail.com,1
+fligtar@mozilla.com,1
+eevee.mozilla@veekun.com,1
+brian.carpenter@gmail.com,4
+coop@mozilla.com,1
+lorchard@mozilla.com,1
+rnewman@mozilla.com,2
+c.ascheberg@gmx.de,3
+patilkr24@gmail.com,2
+miguel.ojeda.sandonis@gmail.com,1
+joseph.walker+bugzilla@gmail.com,6
+LoN_Kamikaze@gmx.de,1
+anton@mozilla.com,14
+dshigabz@gmail.com,1
+ludovic@mozilla.com,3
+Ken@klbproductions.com,1
+ithinc@sohu.com,11
+pawsome@ya.ru,1
+spirit55555@gmail.com,1
+getify@mozilla.com,5
+pcvrcek@mozilla.cz,1
+mwein2009@gmail.com,2
+dan@danwendorf.com,2
+alastairrob@hotmail.com,1
+fayearthur+bugs@gmail.com,2
+marffin@gmail.com,1
+Martin.vGagern@gmx.net,1
+vtanase.bugzilla@gmail.com,1
+milos@mozilla.com,1
+trl@andrew.cmu.edu,1
+clouserw@gmail.com,1
+johan.charlez@gmail.com,10
+cers@geeksbynature.dk,3
+jfong@mozilla.com,1
+pafelka@gmail.com,1
+theo.chevalier11@gmail.com,2
+brijesh3105@gmail.com,1
+kennyheaton@gmail.com,2
+alastair@ajor.co.uk,1
+bwinton@mozilla.com,11
+jasonyeo88@gmail.com,6
+mrshux@gmail.com,1
+iorsh@users.sourceforge.net,1
+enzomatrix@gmail.com,1
+lgvalent@gmail.com,1
+cyberscorpio@gmail.com,1
+alex.lakatos@softvision.ro,1
+vandhanaa91@gmail.com,2
+teramako@gmail.com,3
+jon.rietveld@gmail.com,5
+synodinos@gmail.com,1
+adeubank@gmail.com,1
+piers@eightytwo.com.au,1
+saylesd1@msu.edu,2
+cfree731@gmail.com,1
+owenjonesuk@yahoo.com,1
+tru3cougar@gmail.com,1
+owenccarpenter@gmail.com,1
+bellindira@appcoast.com,25
+artpar@gmail.com,1
+fracture91@gmail.com,2
+mixedpuppy@gmail.com,46
+dwalkowski@mozilla.com,4
+aadib@mozilla.com,1
+jonathan@speedbreeze.com,2
+bzhao@mozilla.com,1
+b3nton@gmail.com,1
+hubert.sablonniere@gmail.com,3
+sankha93@gmail.com,3
+bwalker@mozilla.com,1
+owen@owencoutts.com,1
+miles@userbound.com,1
+dmc@gyrae.net,1
+jfengler4@gmail.com,1
+limweizhong@gmail.com,1
+shlomif@shlomifish.org,1
+xabolcs@maffia.hu,1
+denis.rotnov@gmail.com,1
+yosy101@gmail.com,1
+fitzgen@gmail.com,2
+hrach.cz@gmail.com,1
+ksk.3393@gmail.com,1
+nancibonfim@gmail.com,1
+hsoft@hardcoded.net,1
+lco@mozilla.com,1
+dev.nibo@gmail.com,1
+rail@mozilla.com,2
+aklotz@mozilla.com,1
+zmgmoz@gmail.com,1
+alexbio2008@yahoo.com,1
+mamacdon@gmail.com,1
+yura.zenevich@gmail.com,1
+robert@accettura.com,1
+AlexIhrig@thunderbird-mail.de,1
+y.rouillard@laposte.net,1
+hesslow@gmail.com,1
+kent@caspia.com,18
+patrick.brunschwig@gmx.net,2
+mkmelin+bmo@iki.fi,1
+morgamic@gmail.com,1
+bugzilla.mozilla@rjb.za.net,1
+patrick.hendriks+bugzilla@gmail.com,1
+bisi@pikslar.com,3
+nachmore@gmail.com,1
+stefan.rijnhart@milieudefensie.nl,1
+davidbienvenu@sbcglobal.net,2
+ch.ey@gmx.net,1
+ptomli.bugzilla@gmail.com,1
+jwalden+fxhelp@mit.edu,2
+gwenger@qualcomm.com,3
+dommy.fdo@gmail.com,1
+mcow@well.com,1
+patrick.bugs@wagstrom.net,1
+prometeo.bugs@gmail.com,1
+markushossner@gmx.de,1
+dwiggins@qualcomm.com,1
+christianha1111@aon.at,1
+friedel@translate.org.za,2
+bugzilla.mozilla.org-1@chsc.dk,1
+bugmil.ebirol@gmail.com,1
+touraine@users.sourceforge.net,1
+firefox@poczta.neostrada.pl,3
+ebirol@gmail.com,2
+beckley@qualcomm.com,6
+rebron@gmail.com,3
+bielawski1@gmail.com,1
+moz_en-gb@tyndall.org.uk,1
+sivakrishna@synovel.com,2
+sunil@synovel.com,1
+joybaggins@gmail.com,1
+alta88@gmail.com,4
+richard.marti@gmail.com,178
+mloiseleur@linagora.com,2
+squibblyflabbetydoo@gmail.com,91
+michel.renon@free.fr,2
+mozilladev@fstsoft.de,1
+connor.behan@gmail.com,3
+lionel@mamane.lu,1
+david.ascher@gmail.com,48
+clarkbw@gnome.org,42
+donna.oberes@gmail.com,1
+takeshi2@users.sourceforge.net,2
+kfitzner@excelcia.org,1
+mschroeder@mozilla.x-home.org,1
+vseerror@lehigh.edu,2
+ozwye@dodgit.com,1
+yuenhoe@hotmail.com,1
+sorin.savu@gmail.com,1
+nisses.mail@home.se,107
+alexxed@gmail.com,1
+dstillman+bugzilla@gmail.com,1
+splewako@aviary.pl,4
+ulysse@email.it,1
+herb@leo.org,5
+ilja_sekler_@gmx.de,1
+jenzed@gmail.com,2
+bugzilla2007@duellmann24.net,11
+dagger.bugzilla@gmail.com,1
+cristiklein@gmail.com,1
+parasyte@kodewerx.org,1
+accounts@nagurny.com,1
+mueller8@gmx-topmail.de,1
+edmund@belfordhk.com,3
+dreadnaut@gmail.com,1
+schmid-thomas@gmx.net,2
+jzhang918@gmail.com,1
+mlissner@michaeljaylissner.com,1
+greenrecyclebin@gmail.com,1
+janmoesen_=-bugzilla-=+spamtrap@moesen.nu,1
+chris@sigxcpu.org,3
+mconley@mozillamessaging.com,3
+nehalmistry@gmx.net,1
+chimantaea_mirabilis@yahoo.co.jp,2
+zcrendel@gmail.com,1
+smolejv@gmx.net,1
+stacy@millions.ca,1
+gekacheka@yahoo.com,2
+bugzilla_at_mozilla@peteru.dnsalias.net,1
+luckydog_1@qq.com,1
+rolnas@gmail.com,1
+bwinton@mozillamessaging.com,2
+GoofyFr@gmail.com,5
+jurko.gospodnetic@pke.hr,1
+opera.wang@gmail.com,3
+rossi@hutzlprecm.com,1
+dave@briks.si,1
+dardokleiner@gmail.com,1
+bugzilla@planet.nl,1
+michal.stanke@mikk.cz,1
+rq@akl.lt,1
+iagosrl@gmail.com,1
+dds@aueb.gr,1
+gozer@mozilla.com,1
+dan.callahan@gmail.com,1
+samuel.mueller@leven.ch,1
+sancus@off.net,4
+sreepriya1111@gmail.com,3
+trunga0@gmail.com,1
+clokep@gmail.com,4
+estesp@fastmail.us,1
+jhopkins@mozilla.com,1
+james@jamesh.id.au,2
+heliosbryan@gmail.com,1
+aletheia2@fastmail.fm,2
+bugzilla@firehacks.org,1
+philipp@bugzilla.kewis.ch,4
+awjohnston1@gmail.com,1
+axelg@gofree.indigo.ie,1
+zeyufly@gmail.com,1
+briks.si@gmail.com,1
+az@kth.se,2
+archaeopteryx@coole-files.de,2
+bugs@andreasn.se,2
