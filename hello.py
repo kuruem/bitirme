@@ -1,8 +1,8 @@
 import pandas as pd
 
 
-data = pd.read_csv('ResidentData.csv', error_bad_lines=False)
-data_text = data[['update']]
+data = pd.read_csv('Report.csv', error_bad_lines=False)
+data_text = data[['short_desc']]
 data_text['index'] = data_text.index
 documents = data_text
 
@@ -32,17 +32,9 @@ def preprocess(text):
     return result
 
 
-#doc_sample = documents[documents['index'] == 4].values[0][0]
-#print('original document: ')
-#words = []
-#for word in doc_sample.split(' '):
-#    words.append(word)
-#print(words)
-#print('\n\n tokenized and lemmatized document: ')
-#print(preprocess(doc_sample))
 
 
-processed_docs = documents['update'].map(preprocess)
+processed_docs = documents['short_desc'].map(preprocess)
 
 
 dictionary = gensim.corpora.Dictionary(processed_docs)
@@ -54,7 +46,8 @@ for k, v in dictionary.iteritems():
         break
 
 
-dictionary.filter_extremes(no_below=15, no_above=0.5, keep_n=5000)
+
+dictionary.filter_extremes(no_below=15, no_above=0.5, keep_n=50000)
 
 
 bow_corpus = [dictionary.doc2bow(doc) for doc in processed_docs]
