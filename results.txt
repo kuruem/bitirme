@@ -1,0 +1,4 @@
+1 tahmin %8
+5 tahmin %27
+7 tahmin %33
+10 tahmin %44 (10 fold icin her bir fold test olacak sekilde ayri ayri yapilip ortalamasi)

@@ -216,7 +216,7 @@ Scores_data = open('Scores.csv', 'w')
 csvwriter = csv.writer(Scores_data)
 Scores_head = []
 Scores_head.append('developer')
-Scores_head.append('short_desc')
+#Scores_head.append('short_desc')
 Scores_head.append('topic0')
 Scores_head.append('topic1')
 Scores_head.append('topic2')
@@ -234,14 +234,14 @@ for report in Report.reports:
     bow_vector = dictionary.doc2bow(preprocess(short_desc))
     Scores_row = []
     Scores_row.append(report.developer)
-    Scores_row.append(report.bugId)
+    #Scores_row.append(report.bugId)
     print("Developer: {}\t Short Desc: {}".format(report.developer, report.shortDesc))
     counter = 0
     for i in range(10):
         Scores_row.append(0)
 
     for index, score in lda_model[bow_vector]:
-        Scores_row[index+2] = score
+        Scores_row[index+1] = score
         print("Score: {}\t Topic: {}".format(score, index))
 
     csvwriter.writerow(Scores_row)
@@ -249,3 +249,72 @@ for report in Report.reports:
 Scores_data.close()
 
 
+##benim##
+from sklearn.model_selection import StratifiedKFold
+
+df = pd.read_csv("Scores.csv")
+
+X = np.array(df.iloc[:, 1:11])
+y = np.array(df.iloc[:,0])
+
+skf = StratifiedKFold(n_splits=10)
+
+skf.get_n_splits(X,y)
+
+from sklearn import svm
+from sklearn.svm import SVC
+
+class Probs:
+    probs = []
+    def __init__(self, prob, dev):
+        self.prob = prob
+        self.dev = dev
+        Probs.probs.append(self)
+
+results = []
+for train_index, test_index in skf.split(X, y):
+    print("TRAIN:", train_index, "TEST:", test_index)
+    X_train, X_test = X[train_index], X[test_index]
+    y_train, y_test = y[train_index], y[test_index]
+
+    clf = svm.SVC(gamma='scale', decision_function_shape='ovo', probability=True).fit(X_train, y_train)
+    probs = clf.predict_proba(X_test)
+
+    correct_count = 0
+    fail_count = 0
+    for testInd in range(len(probs)):
+
+        Probs.probs = []
+
+        for index, prob in enumerate(probs[testInd]):
+            Probs(prob, clf.classes_[index])
+    
+        Probs.probs.sort(key=lambda Probs: Probs.prob, reverse=True)
+
+
+        predictions = []
+
+        i = 0
+
+        for i in range(10):
+            predictions.append(Probs.probs[i].dev)
+
+
+
+        if y_test[testInd] in predictions:
+            correct_count = correct_count + 1
+        else:
+            fail_count = fail_count + 1
+
+    results.append(correct_count / (correct_count + fail_count))
+    print(correct_count / (correct_count + fail_count))
+
+    #clf = svm.SVC(gamma='scale', decision_function_shape='ovo').fit(X_train, y_train)
+    #clf.score(X_test, y_test)
+    
+sum = 0
+for i in range(len(results)):
+    sum = sum + results[i]
+
+
+average = sum / len(results)
